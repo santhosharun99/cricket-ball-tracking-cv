@@ -1,0 +1,10 @@
+{
+  "base_protocol":"../gap_trial/protocol.json",
+  "comparison":"Same cached detections, five-observation seeds, gaps, exclusions and scoring radius as v1. No retuning of base methods.",
+  "bounce_rule":"In the observed prefix only, detect two consecutive downward image velocities >5 pixels/frame followed by an upward velocity <-5 pixels/frame. Peak observation begins outgoing segment; one upward interval is tentative, two is confirmed. This is a motion-turn cue, not proof of ground contact.",
+  "reset_fit":"Use only peak and later observations after a detected turn. With 2 or 3 observations use linear fit; with 4 or more use the original 50/50 linear/quadratic blend. If no turn detected use the original blend.",
+  "visual_override":"If motion selection rejects all candidates, allow the highest-confidence candidate when confidence >=0.60 and its lead over every spatially distinct (>20px away) candidate is >=0.20. Near-identical boxes count as one object. Otherwise abstain. This is an illustrative uncalibrated confidence rule, not a probability guarantee.",
+  "methods":["detector_only","blend","bounce_reset","bounce_reset_visual_override"],
+  "future_information":"No future event labels, metric ground truth, speed graphics or hidden detections are supplied to predictor. Bounce phase labels used only after predictions for analysis.",
+  "evaluation_status":"Development rerun on known examples, not a new held-out validation set. Parameters fixed before v2 scoring. Existing clear-return sample cannot establish robustness under real ambiguity."
+}

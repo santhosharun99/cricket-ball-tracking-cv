@@ -1,0 +1,15 @@
+{
+  "purpose":"Causal hidden-frame reacquisition pilot, never use future bounce time, broadcast speed or official metric answers",
+  "history_points":5,
+  "hidden_frame_counts":[2,3,5],
+  "primary_gap_counts":[2,3],
+  "search_radius_px":60,
+  "reference_match_radius_px":20,
+  "detector_confidence":0.05,
+  "detector_image_size":1280,
+  "fit":"ordinary least squares constant velocity vs constant image acceleration over last five observed frames; blend prediction 50/50, fixed before scoring",
+  "candidate_selection":"highest detector confidence multiplied by Gaussian distance likelihood, sigma=30px, hard radius=60px; same rule for all motion methods",
+  "reference_policy":"manually verify genuine ball among raw detector boxes; independent pixel coordinates reviewed from image crops; no interpolated or predicted labels",
+  "clips":{"C4":{"prefix":"6a79","start":93,"end":105,"bounce_frame_for_scoring_only":104},"C1":{"prefix":"f81d092","start":91,"end":103,"bounce_frame_for_scoring_only":98},"C3":{"prefix":"98e537","start":84,"end":96,"bounce_frame_for_scoring_only":95},"C5":{"prefix":"bad153","start":74,"end":91,"bounce_frame_for_scoring_only":84}},
+  "limitations":"Local image-plane acceleration is physics-inspired, not a calibrated 3D simulator. Camera perspective/zoom changes apparent acceleration. Correct-prefix seeding isolates gap recovery, not full automatic tracking. Existing detector training provenance may overlap example broadcast footage. No hyperparameter tuning on these four examples."
+}

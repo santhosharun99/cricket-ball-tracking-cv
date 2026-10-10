@@ -1,0 +1,17 @@
+clip,method,cases,correct,wrong,median_error_px
+C1,blend,7,1,0,173.15118682007278
+C1,bounce_reset,7,2,0,133.58761466106282
+C1,bounce_reset_visual_override,7,5,0,133.58761466106282
+C1,detector_only,7,7,0,
+C3,blend,11,8,0,44.80474516709812
+C3,bounce_reset,11,8,0,44.80474516709812
+C3,bounce_reset_visual_override,11,11,0,44.80474516709812
+C3,detector_only,11,11,0,
+C4,blend,11,9,0,17.570837336571508
+C4,bounce_reset,11,9,0,17.570837336571508
+C4,bounce_reset_visual_override,11,11,0,17.570837336571508
+C4,detector_only,11,11,0,
+C5,blend,17,8,0,61.133740058918974
+C5,bounce_reset,17,12,0,27.320447457843876
+C5,bounce_reset_visual_override,17,17,0,27.320447457843876
+C5,detector_only,17,17,0,

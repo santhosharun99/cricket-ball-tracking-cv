@@ -1,0 +1,7 @@
+path: ~/Downloads/cricket-ball-yolo/combined_data_fast
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names: ['ball']

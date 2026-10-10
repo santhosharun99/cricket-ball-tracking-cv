@@ -1,0 +1,38 @@
+{
+  "status": "awaiting_new_clips",
+  "model_sha256": "c46575237cf11196427f04dfc2dd2c45963bbe8178fd50d98a259d005ad3b1e2",
+  "predictor_sha256": "38ea967ae318c5e8c11f1cea1fda2533f9fafc0bd6cd8cb4a2f9b78e5c475e89",
+  "device": "cpu",
+  "threads": 4,
+  "imgsz": 1280,
+  "confidence": 0.05,
+  "method": "bounce_reset_visual_override",
+  "search_radius_px": 60,
+  "match_radius_px": 20,
+  "initialization": "five manually verified detections; explicitly report seeded tracking, not automatic acquisition",
+  "excluded_development_videos": [
+    {
+      "name": "6a79fbe0fd6792126c69087568f7f08318dcf449.mp4",
+      "sha256": "9429894a9a9ef81a08703ded0474b89caf04b373c669c6711ada5c3860bff50a"
+    },
+    {
+      "name": "98e537a2a3555da28ca7eea3227babb61df228d1.mp4",
+      "sha256": "da85b4087e4741bd01ccad5bcaf8fa55157c1abfcf3af780a63da4b2c5f368d0"
+    },
+    {
+      "name": "9ef5c0e6e68a01d5435499bc0527c04386e527fc.mp4",
+      "sha256": "fd60c0fb842cfde8e468a4489f9cd028deab07ad5d8fec764a68ac766459b527"
+    },
+    {
+      "name": "bad1530d039b7146a8ce4a1b1a6b29502c3c9491.mp4",
+      "sha256": "d3f7f40c4deee7aecc1b69104bdcb617f547ed2f5268de7d2a379e5cbc843343"
+    },
+    {
+      "name": "f81d092b6117be1126e0d6be97220b3f9a2870eb.mp4",
+      "sha256": "6996dacaf5d3f91ad548a1f617a5ed5eeacf5bcf41646a1f072248b7239ffbe8"
+    }
+  ],
+  "label_policy": "Review raw footage before predictions. Record only visible ball centres; mark occlusion/uncertainty. Do not interpolate truth. Label release/bounce as frame intervals when visible. Never supply later labels to tracker.",
+  "evaluation": "Keep current parameters fixed. Compare detector-only and guided tracker on same labelled frames. Report correct, wrong, missed, precision, recall, pixel error and per-clip results; include all supplied eligible clips. Report training-overlap uncertainty. Event timings assessed separately; no metric distances without suitable reference.",
+  "tuning": "Any subsequent tuning invalidates held-out status for these clips; retain a further untouched set."
+}

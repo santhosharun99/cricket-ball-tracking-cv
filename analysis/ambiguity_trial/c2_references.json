@@ -1,0 +1,209 @@
+[
+  {
+    "clip": "C2",
+    "frame": 58,
+    "status": "unscorable",
+    "reason": "no reliable independent in-flight ball reference"
+  },
+  {
+    "clip": "C2",
+    "frame": 59,
+    "status": "unscorable",
+    "reason": "no reliable independent in-flight ball reference"
+  },
+  {
+    "clip": "C2",
+    "frame": 60,
+    "status": "unscorable",
+    "reason": "no reliable independent in-flight ball reference"
+  },
+  {
+    "clip": "C2",
+    "frame": 61,
+    "status": "unscorable",
+    "reason": "no reliable independent in-flight ball reference"
+  },
+  {
+    "clip": "C2",
+    "frame": 62,
+    "status": "unscorable",
+    "reason": "no reliable independent in-flight ball reference"
+  },
+  {
+    "clip": "C2",
+    "frame": 63,
+    "status": "unscorable",
+    "reason": "no reliable independent in-flight ball reference"
+  },
+  {
+    "clip": "C2",
+    "frame": 64,
+    "status": "unscorable",
+    "reason": "no reliable independent in-flight ball reference"
+  },
+  {
+    "clip": "C2",
+    "frame": 65,
+    "status": "unscorable",
+    "reason": "no reliable independent in-flight ball reference"
+  },
+  {
+    "clip": "C2",
+    "frame": 66,
+    "status": "unscorable",
+    "reason": "no reliable independent in-flight ball reference"
+  },
+  {
+    "clip": "C2",
+    "frame": 67,
+    "status": "unscorable",
+    "reason": "no reliable independent in-flight ball reference"
+  },
+  {
+    "clip": "C2",
+    "frame": 68,
+    "status": "unscorable",
+    "reason": "no reliable independent in-flight ball reference"
+  },
+  {
+    "clip": "C2",
+    "frame": 69,
+    "status": "unscorable",
+    "reason": "no reliable independent in-flight ball reference"
+  },
+  {
+    "clip": "C2",
+    "frame": 70,
+    "status": "unscorable",
+    "reason": "no reliable independent in-flight ball reference"
+  },
+  {
+    "clip": "C2",
+    "frame": 71,
+    "status": "unscorable",
+    "reason": "no reliable independent in-flight ball reference"
+  },
+  {
+    "clip": "C2",
+    "frame": 72,
+    "status": "unscorable",
+    "reason": "no reliable independent in-flight ball reference"
+  },
+  {
+    "clip": "C2",
+    "frame": 73,
+    "status": "unscorable",
+    "reason": "no reliable independent in-flight ball reference"
+  },
+  {
+    "clip": "C2",
+    "frame": 74,
+    "status": "unscorable",
+    "reason": "no reliable independent in-flight ball reference"
+  },
+  {
+    "clip": "C2",
+    "frame": 75,
+    "status": "unscorable",
+    "reason": "no reliable independent in-flight ball reference"
+  },
+  {
+    "clip": "C2",
+    "frame": 76,
+    "status": "visible",
+    "x": 536.2696629213483,
+    "y": 370.23595505617976,
+    "reviewed_candidate_id": 0,
+    "method": "manual ball identity + raw bright-component centroid; F85 manually seeded visible ball with no detector box"
+  },
+  {
+    "clip": "C2",
+    "frame": 77,
+    "status": "visible",
+    "x": 534.5394736842105,
+    "y": 330.86842105263156,
+    "reviewed_candidate_id": 0,
+    "method": "manual ball identity + raw bright-component centroid; F85 manually seeded visible ball with no detector box"
+  },
+  {
+    "clip": "C2",
+    "frame": 78,
+    "status": "visible",
+    "x": 533.3684210526316,
+    "y": 312.3263157894737,
+    "reviewed_candidate_id": 0,
+    "method": "manual ball identity + raw bright-component centroid; F85 manually seeded visible ball with no detector box"
+  },
+  {
+    "clip": "C2",
+    "frame": 79,
+    "status": "visible",
+    "x": 531.421052631579,
+    "y": 275.17894736842106,
+    "reviewed_candidate_id": 1,
+    "method": "manual ball identity + raw bright-component centroid; F85 manually seeded visible ball with no detector box"
+  },
+  {
+    "clip": "C2",
+    "frame": 80,
+    "status": "visible",
+    "x": 530.5,
+    "y": 240.3695652173913,
+    "reviewed_candidate_id": 0,
+    "method": "manual ball identity + raw bright-component centroid; F85 manually seeded visible ball with no detector box"
+  },
+  {
+    "clip": "C2",
+    "frame": 81,
+    "status": "visible",
+    "x": 529.8522727272727,
+    "y": 223.9431818181818,
+    "reviewed_candidate_id": 2,
+    "method": "manual ball identity + raw bright-component centroid; F85 manually seeded visible ball with no detector box"
+  },
+  {
+    "clip": "C2",
+    "frame": 82,
+    "status": "visible",
+    "x": 529.2790697674419,
+    "y": 192.01162790697674,
+    "reviewed_candidate_id": 0,
+    "method": "manual ball identity + raw bright-component centroid; F85 manually seeded visible ball with no detector box"
+  },
+  {
+    "clip": "C2",
+    "frame": 83,
+    "status": "visible",
+    "x": 529.4056603773585,
+    "y": 162.5943396226415,
+    "reviewed_candidate_id": 1,
+    "method": "manual ball identity + raw bright-component centroid; F85 manually seeded visible ball with no detector box"
+  },
+  {
+    "clip": "C2",
+    "frame": 84,
+    "status": "visible",
+    "x": 526.790909090909,
+    "y": 146.5909090909091,
+    "reviewed_candidate_id": 0,
+    "method": "manual ball identity + raw bright-component centroid; F85 manually seeded visible ball with no detector box"
+  },
+  {
+    "clip": "C2",
+    "frame": 85,
+    "status": "visible",
+    "x": 527.1398601398602,
+    "y": 122.0979020979021,
+    "reviewed_candidate_id": null,
+    "method": "manual ball identity + raw bright-component centroid; F85 manually seeded visible ball with no detector box"
+  },
+  {
+    "clip": "C2",
+    "frame": 86,
+    "status": "visible",
+    "x": 534.6113989637306,
+    "y": 97.10880829015544,
+    "reviewed_candidate_id": 0,
+    "method": "manual ball identity + raw bright-component centroid; F85 manually seeded visible ball with no detector box"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "annotation_method": "Manual review of original source frames; release interval spans last attached-ball and first clearly detached-ball frames. Midpoint used uniformly. Bounce uses previously reported tracker event, visually reviewed here, +/-0.5 frame nominal uncertainty. Retrospective pilot, not blinded: answer file was seen before annotation. No annotations adjusted using metric bounce error.",
+  "assumptions": {"release_x_m":18.8,"release_height_m":2.0,"mass_kg":0.156,"radius_m":0.036,"air_density_kg_m3":1.225,"drag_coefficient":0.5,"gravity_m_s2":9.81,"x_origin":"striker wicket, positive toward bowler","heading_deg":0,"contact_z_m":0.0,"note":"point-contact z=0 approximation; radius is used only for aerodynamic area. No spin, swing, wind, or camera calibration. Parameters fixed across clips, not fitted to example ground truth."},
+  "clips": [
+    {"clip":"C1","prefix":"f81d092","release_frames":[90,91],"bounce_frames":[97.5,98.5],"broadcast_speed_kph":138.5,"speed_evidence_frame":340,"status":"usable; speed graphic appears after delivery"},
+    {"clip":"C2","prefix":"9ef5c0e","release_frames":null,"bounce_frames":null,"broadcast_speed_kph":null,"status":"abstain: early flight and bounce cannot be reliably established"},
+    {"clip":"C3","prefix":"98e537","release_frames":[83,84],"bounce_frames":[94.5,95.5],"broadcast_speed_kph":null,"status":"timing usable; no speed found in sampled scoreboard frames; diagnostic uses answer-sheet speed only"},
+    {"clip":"C4","prefix":"6a79","release_frames":[92,93],"bounce_frames":[103.5,104.5],"broadcast_speed_kph":136.5,"speed_evidence_frame":390,"status":"usable; speed graphic appears after delivery"},
+    {"clip":"C5","prefix":"bad153","release_frames":[73,74],"bounce_frames":[83.5,84.5],"broadcast_speed_kph":139.2,"speed_evidence_frame":260,"status":"usable; speed graphic appears after delivery"}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "window": [
+    50,
+    115
+  ],
+  "device": "cpu",
+  "threads": 4,
+  "imgsz": 1280,
+  "confidence": 0.05,
+  "link_max_px_per_frame": 100,
+  "max_gap_frames": 2,
+  "event_rule": "two downward segments then two upward segments, each over 5 px/frame; report first qualifying track turn",
+  "initialization": "all detector candidates start tracks; nearest spatial links, no manual seeds",
+  "release_rule": "first detection in qualifying track is only a track-start proxy, NOT release",
+  "limitations": "Image turn may be distractor/bat/camera motion. Fixed common excerpt, not whole-video acquisition. Known development examples. No pose/hand separation evidence."
+}

@@ -1,0 +1,5 @@
+method,correct,missed_visible,safe_abstention,unscorable,wrong,wrong_known_pitch_mark
+bounce_reset_visual_override,39,1,1,1,0,0
+detector_only,37,1,0,1,2,1
+last_position_roi,39,1,1,1,0,0
+predicted_roi,39,1,1,1,0,0

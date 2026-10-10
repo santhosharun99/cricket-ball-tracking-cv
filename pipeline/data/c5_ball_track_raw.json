@@ -1,0 +1,590 @@
+{
+  "42": {
+    "x": 802.4,
+    "y": 685.6,
+    "area": 5,
+    "note": ""
+  },
+  "43": {
+    "x": 790.3,
+    "y": 677.0,
+    "area": 76,
+    "note": ""
+  },
+  "44": {
+    "x": 812.5,
+    "y": 606.0,
+    "area": 6,
+    "note": ""
+  },
+  "45": {
+    "x": 826.7,
+    "y": 569.3,
+    "area": 3,
+    "note": ""
+  },
+  "46": {
+    "x": 800.4,
+    "y": 563.3,
+    "area": 15,
+    "note": ""
+  },
+  "47": {
+    "x": 812.8,
+    "y": 559.1,
+    "area": 63,
+    "note": ""
+  },
+  "48": {
+    "x": 857.1,
+    "y": 592.6,
+    "area": 22,
+    "note": ""
+  },
+  "49": {
+    "x": 864.7,
+    "y": 660.7,
+    "area": 3,
+    "note": ""
+  },
+  "50": {
+    "x": 832.7,
+    "y": 714.7,
+    "area": 3,
+    "note": ""
+  },
+  "51": {
+    "x": 825.9,
+    "y": 788.6,
+    "area": 35,
+    "note": ""
+  },
+  "52": {
+    "x": 815.4,
+    "y": 808.8,
+    "area": 86,
+    "note": ""
+  },
+  "53": {
+    "x": 841.4,
+    "y": 815.2,
+    "area": 5,
+    "note": ""
+  },
+  "54": {
+    "x": 836.4,
+    "y": 810.6,
+    "area": 17,
+    "note": ""
+  },
+  "55": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "56": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "57": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "58": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "59": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "60": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "61": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "62": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "63": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "64": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "65": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "66": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "67": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "68": {
+    "x": 853.8,
+    "y": 786.8,
+    "area": 58,
+    "note": ""
+  },
+  "69": {
+    "x": 824.7,
+    "y": 693.7,
+    "area": 6,
+    "note": ""
+  },
+  "70": {
+    "x": 829.5,
+    "y": 565.5,
+    "area": 8,
+    "note": ""
+  },
+  "71": {
+    "x": 830.6,
+    "y": 458.2,
+    "area": 5,
+    "note": ""
+  },
+  "72": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "73": {
+    "x": 870.0,
+    "y": 371.3,
+    "area": 157,
+    "note": ""
+  },
+  "74": {
+    "x": 881,
+    "y": 322,
+    "area": null,
+    "note": "manually verified seed"
+  },
+  "75": {
+    "x": 887.0,
+    "y": 333.9,
+    "area": 169,
+    "note": ""
+  },
+  "76": {
+    "x": 893.4,
+    "y": 351.0,
+    "area": 173,
+    "note": ""
+  },
+  "77": {
+    "x": 898.6,
+    "y": 372.7,
+    "area": 166,
+    "note": ""
+  },
+  "78": {
+    "x": 903.8,
+    "y": 397.4,
+    "area": 174,
+    "note": ""
+  },
+  "79": {
+    "x": 909.3,
+    "y": 423.8,
+    "area": 164,
+    "note": ""
+  },
+  "80": {
+    "x": 914.9,
+    "y": 452.4,
+    "area": 185,
+    "note": ""
+  },
+  "81": {
+    "x": 920.6,
+    "y": 481.7,
+    "area": 179,
+    "note": ""
+  },
+  "82": {
+    "x": 982.2,
+    "y": 505.2,
+    "area": 4,
+    "note": ""
+  },
+  "83": {
+    "x": 1050.5,
+    "y": 488.5,
+    "area": 4,
+    "note": ""
+  },
+  "84": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "85": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "86": {
+    "x": 1056.0,
+    "y": 500.8,
+    "area": 4,
+    "note": ""
+  },
+  "87": {
+    "x": 1033.1,
+    "y": 477.3,
+    "area": 48,
+    "note": ""
+  },
+  "88": {
+    "x": 994.5,
+    "y": 383.5,
+    "area": 8,
+    "note": ""
+  },
+  "89": {
+    "x": 947.5,
+    "y": 272.0,
+    "area": 4,
+    "note": ""
+  },
+  "90": {
+    "x": 918.3,
+    "y": 179.5,
+    "area": 10,
+    "note": ""
+  },
+  "91": {
+    "x": 943.8,
+    "y": 108.2,
+    "area": 4,
+    "note": ""
+  },
+  "92": {
+    "x": 976.2,
+    "y": 49.5,
+    "area": 11,
+    "note": ""
+  },
+  "93": {
+    "x": 985.4,
+    "y": 55.4,
+    "area": 80,
+    "note": ""
+  },
+  "94": {
+    "x": 986.7,
+    "y": 67.9,
+    "area": 198,
+    "note": ""
+  },
+  "95": {
+    "x": 988.4,
+    "y": 76.4,
+    "area": 188,
+    "note": ""
+  },
+  "96": {
+    "x": 1011.3,
+    "y": 87.0,
+    "area": 147,
+    "note": ""
+  },
+  "97": {
+    "x": 1050.7,
+    "y": 135.3,
+    "area": 6,
+    "note": ""
+  },
+  "98": {
+    "x": 1101.0,
+    "y": 200.0,
+    "area": 20,
+    "note": ""
+  },
+  "99": {
+    "x": 1150.5,
+    "y": 225.5,
+    "area": 8,
+    "note": ""
+  },
+  "100": {
+    "x": 1205.6,
+    "y": 217.7,
+    "area": 30,
+    "note": ""
+  },
+  "101": {
+    "x": 1222.9,
+    "y": 233.7,
+    "area": 26,
+    "note": ""
+  },
+  "102": {
+    "x": 1266.7,
+    "y": 215.3,
+    "area": 23,
+    "note": ""
+  },
+  "103": {
+    "x": 1292.2,
+    "y": 235.6,
+    "area": 5,
+    "note": ""
+  },
+  "104": {
+    "x": 1306.5,
+    "y": 279.4,
+    "area": 22,
+    "note": ""
+  },
+  "105": {
+    "x": 1358.5,
+    "y": 293.0,
+    "area": 6,
+    "note": ""
+  },
+  "106": {
+    "x": 1447.6,
+    "y": 341.3,
+    "area": 14,
+    "note": ""
+  },
+  "107": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "108": {
+    "x": 1515.4,
+    "y": 320.7,
+    "area": 29,
+    "note": ""
+  },
+  "109": {
+    "x": 1578.0,
+    "y": 326.7,
+    "area": 3,
+    "note": ""
+  },
+  "110": {
+    "x": 1678.3,
+    "y": 351.0,
+    "area": 7,
+    "note": ""
+  },
+  "111": {
+    "x": 1709.6,
+    "y": 419.9,
+    "area": 8,
+    "note": ""
+  },
+  "112": {
+    "x": 1715.5,
+    "y": 421.2,
+    "area": 4,
+    "note": ""
+  },
+  "113": {
+    "x": 1728.2,
+    "y": 415.2,
+    "area": 4,
+    "note": ""
+  },
+  "114": {
+    "x": 1704.7,
+    "y": 435.7,
+    "area": 3,
+    "note": ""
+  },
+  "115": {
+    "x": 1719.2,
+    "y": 432.0,
+    "area": 4,
+    "note": ""
+  },
+  "116": {
+    "x": 1771.3,
+    "y": 458.3,
+    "area": 6,
+    "note": ""
+  },
+  "117": {
+    "x": 1799.3,
+    "y": 445.9,
+    "area": 9,
+    "note": ""
+  },
+  "118": {
+    "x": 1768.8,
+    "y": 389.5,
+    "area": 6,
+    "note": ""
+  },
+  "119": {
+    "x": 1713.7,
+    "y": 355.9,
+    "area": 15,
+    "note": ""
+  },
+  "120": {
+    "x": 1684.5,
+    "y": 301.2,
+    "area": 4,
+    "note": ""
+  },
+  "121": {
+    "x": 1625.8,
+    "y": 261.3,
+    "area": 39,
+    "note": ""
+  },
+  "122": {
+    "x": 1527.8,
+    "y": 217.6,
+    "area": 5,
+    "note": ""
+  },
+  "123": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "124": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "125": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "126": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "127": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "128": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "129": {
+    "x": 1489.5,
+    "y": 103.5,
+    "area": 8,
+    "note": ""
+  },
+  "130": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "131": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "132": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "133": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "134": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "135": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "136": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "137": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "138": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  },
+  "139": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "not found"
+  }
+}

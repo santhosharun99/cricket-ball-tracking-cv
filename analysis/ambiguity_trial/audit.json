@@ -1,0 +1,9 @@
+{
+  "source_video": "pipeline/data/videos/9ef5c0e6e68a01d5435499bc0527c04386e527fc.mp4",
+  "source_sha256": "fd60c0fb842cfde8e468a4489f9cd028deab07ad5d8fec764a68ac766459b527",
+  "predictor_sha256": "38ea967ae318c5e8c11f1cea1fda2533f9fafc0bd6cd8cb4a2f9b78e5c475e89",
+  "protocol_sha256": "ed6300af5039dbc95d5c600c47dd257237fe95e23b9d04baf41eb33bfce5392a",
+  "evaluated_visible_frames": 40,
+  "unconfirmed_frame85_prediction_error_px": 3.5242003841085916,
+  "causal_history_check": true
+}

@@ -1,0 +1,22 @@
+{
+  "device": "cpu",
+  "threads": 4,
+  "crop_size": 384,
+  "crop_imgsz": [
+    960,
+    1280
+  ],
+  "conf": 0.05,
+  "base_radius": 60,
+  "radius_growth_per_missing_frame": 20,
+  "max_radius": 160,
+  "match_radius": 20,
+  "methods": [
+    "predicted_roi_960",
+    "predicted_roi_1280"
+  ],
+  "fallback": "cached full-frame candidates with unchanged motion selector",
+  "labels": "scoring only after choice; five original manually verified seeds; no later corrections",
+  "hypothesis": "Does higher crop inference resolution recover missing detections? Two fixed exploratory resolutions, identical rules on all clips.",
+  "limitation": "Known development clips, not held-out; local image motion, not calibrated metric physics."
+}

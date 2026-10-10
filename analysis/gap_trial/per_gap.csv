@@ -1,0 +1,9 @@
+gap,method,cases,correct,median_error_px
+2,blend,25,15,32.64264745738274
+2,curved,25,17,20.972739786832303
+2,detector_only,25,25,
+2,straight,25,13,55.86873289370857
+3,blend,21,11,59.99735598752512
+3,curved,21,10,70.97625613380765
+3,detector_only,21,21,
+3,straight,21,8,68.46690768231912

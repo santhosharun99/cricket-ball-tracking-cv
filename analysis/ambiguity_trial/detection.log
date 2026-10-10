@@ -1,0 +1,7 @@
+Creating new Ultralytics Settings v0.0.7 file ✅ 
+View Ultralytics Settings with 'yolo settings' or at '/tmp/Ultralytics/Ultralytics/settings.json'
+Update Settings with 'yolo settings key=value', i.e. 'yolo settings runs_dir=path/to/dir'. For help see https://docs.ultralytics.com/quickstart/#ultralytics-settings.
+Matplotlib is building the font cache; this may take a moment.
+objc[92177]: Class AVFFrameReceiver is implemented in both /opt/anaconda3/lib/python3.12/site-packages/cv2/.dylibs/libavdevice.61.3.100.dylib (0x106a403a8) and /opt/anaconda3/lib/python3.12/site-packages/av/.dylibs/libavdevice.62.1.100.dylib (0x15a2403a8). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+objc[92177]: Class AVFAudioReceiver is implemented in both /opt/anaconda3/lib/python3.12/site-packages/cv2/.dylibs/libavdevice.61.3.100.dylib (0x106a403f8) and /opt/anaconda3/lib/python3.12/site-packages/av/.dylibs/libavdevice.62.1.100.dylib (0x15a2403f8). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+C2 cached: 29 frames

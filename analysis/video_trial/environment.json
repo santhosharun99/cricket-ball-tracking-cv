@@ -1,0 +1,8 @@
+{
+  "python": "3.12.7",
+  "opencv": "5.0.0",
+  "pillow": "12.2.0",
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "answer_file_sha256": "e1125c314d6ed947d727fdf3db66aed2780361863248d5121f716de9476710e2"
+}

@@ -1,0 +1,19 @@
+objc[92521]: Class AVFFrameReceiver is implemented in both /opt/anaconda3/lib/python3.12/site-packages/cv2/.dylibs/libavdevice.61.3.100.dylib (0x171f043a8) and /opt/anaconda3/lib/python3.12/site-packages/av/.dylibs/libavdevice.62.1.100.dylib (0x312b103a8). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+objc[92521]: Class AVFAudioReceiver is implemented in both /opt/anaconda3/lib/python3.12/site-packages/cv2/.dylibs/libavdevice.61.3.100.dylib (0x171f043f8) and /opt/anaconda3/lib/python3.12/site-packages/av/.dylibs/libavdevice.62.1.100.dylib (0x312b103f8). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+C4 predicted_roi_960 complete
+C4 predicted_roi_1280 complete
+C1 predicted_roi_960 complete
+C1 predicted_roi_1280 complete
+C3 predicted_roi_960 complete
+C3 predicted_roi_1280 complete
+C5 predicted_roi_960 complete
+C5 predicted_roi_1280 complete
+C2 predicted_roi_960 complete
+C2 predicted_roi_1280 complete
+status                        correct  missed_visible  safe_abstention  unscorable  wrong  wrong_known_pitch_mark
+method                                                                                                           
+bounce_reset_visual_override       39               1                1           1      0                       0
+detector_only                      37               1                0           1      2                       1
+predicted_roi_1280                 39               1                1           1      0                       0
+predicted_roi_960                  35               2                1           1      3                       0
+Crop CPU seconds: 21.416636917856522

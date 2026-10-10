@@ -1,0 +1,127 @@
+{
+  "74": {
+    "x": 881.0,
+    "y": 322.0,
+    "note": "verified"
+  },
+  "75": {
+    "x": 887.1,
+    "y": 333.8,
+    "note": "verified"
+  },
+  "76": {
+    "x": 893.3,
+    "y": 351.1,
+    "note": "verified"
+  },
+  "77": {
+    "x": 898.7,
+    "y": 372.7,
+    "note": "verified"
+  },
+  "78": {
+    "x": 903.9,
+    "y": 397.3,
+    "note": "verified"
+  },
+  "79": {
+    "x": 909.4,
+    "y": 423.7,
+    "note": "verified"
+  },
+  "80": {
+    "x": 914.9,
+    "y": 452.4,
+    "note": "verified"
+  },
+  "81": {
+    "x": 920.7,
+    "y": 481.7,
+    "note": "verified"
+  },
+  "82": {
+    "x": 926.6,
+    "y": 512.5,
+    "note": "verified"
+  },
+  "83": {
+    "x": 933.4,
+    "y": 546.0,
+    "note": "verified"
+  },
+  "84": {
+    "x": 939.7,
+    "y": 580.5,
+    "note": "verified"
+  },
+  "85": {
+    "x": 945.4,
+    "y": 543.2,
+    "note": "verified"
+  },
+  "87": {
+    "x": 957.5,
+    "y": 475.5,
+    "note": "verified"
+  },
+  "88": {
+    "x": 962.5,
+    "y": 447.4,
+    "note": "curve-predicted+matched round blob, r<=20px, area=167"
+  },
+  "89": {
+    "x": 966.3,
+    "y": 424.2,
+    "note": "curve-predicted+matched round blob, r<=20px, area=162"
+  },
+  "90": {
+    "x": 970.4,
+    "y": 401.7,
+    "note": "curve-predicted+matched round blob, r<=20px, area=151"
+  },
+  "91": {
+    "x": 976.0,
+    "y": 382.0,
+    "note": "curve-predicted+matched round blob, r<=20px, area=158"
+  },
+  "92": {
+    "x": 982.3,
+    "y": 363.4,
+    "note": "predicted from curve fit, no matching blob found (coast 1)"
+  },
+  "93": {
+    "x": 1002.0,
+    "y": 360.9,
+    "note": "curve-predicted+matched round blob, r<=20px, area=129"
+  },
+  "94": {
+    "x": 989.0,
+    "y": 330.7,
+    "note": "curve-predicted+matched round blob, r<=55px, area=69"
+  },
+  "95": {
+    "x": 983.1,
+    "y": 308.6,
+    "note": "predicted from curve fit, no matching blob found (coast 1)"
+  },
+  "96": {
+    "x": 950.5,
+    "y": 294.7,
+    "note": "curve-predicted+matched round blob, r<=20px, area=86"
+  },
+  "97": {
+    "x": 901.9,
+    "y": 280.4,
+    "note": "curve-predicted+matched round blob, r<=20px, area=74"
+  },
+  "98": {
+    "x": 850.8,
+    "y": 274.9,
+    "note": "predicted from curve fit, no matching blob found (coast 1)"
+  },
+  "99": {
+    "x": 785.5,
+    "y": 273.7,
+    "note": "predicted from curve fit, no matching blob found (coast 2) - stopping"
+  }
+}

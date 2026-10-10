@@ -1,0 +1,12 @@
+WARNING ⚠️ user config directory '/tmp/cricket-gap-yolo/Ultralytics' is not writable, using '/tmp/Ultralytics'. Set YOLO_CONFIG_DIR to override.
+Creating new Ultralytics Settings v0.0.7 file ✅ 
+View Ultralytics Settings with 'yolo settings' or at '/tmp/Ultralytics/settings.json'
+Update Settings with 'yolo settings key=value', i.e. 'yolo settings runs_dir=path/to/dir'. For help see https://docs.ultralytics.com/quickstart/#ultralytics-settings.
+Matplotlib created a temporary cache directory at /var/folders/jc/8ysq7rc97kj7jj3kf0kxd29h0000gn/T/matplotlib-95sdrido because the default path (~/.matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Matplotlib is building the font cache; this may take a moment.
+objc[90250]: Class AVFFrameReceiver is implemented in both /opt/anaconda3/lib/python3.12/site-packages/cv2/.dylibs/libavdevice.61.3.100.dylib (0x106e583a8) and /opt/anaconda3/lib/python3.12/site-packages/av/.dylibs/libavdevice.62.1.100.dylib (0x1542103a8). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+objc[90250]: Class AVFAudioReceiver is implemented in both /opt/anaconda3/lib/python3.12/site-packages/cv2/.dylibs/libavdevice.61.3.100.dylib (0x106e583f8) and /opt/anaconda3/lib/python3.12/site-packages/av/.dylibs/libavdevice.62.1.100.dylib (0x1542103f8). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+C4 done
+C1 done
+C3 done
+C5 done

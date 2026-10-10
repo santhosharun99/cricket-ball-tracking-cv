@@ -1,0 +1,7 @@
+mode,model,n,mean_error_m,max_error_m,within_half_m,within_one_m
+answer_speed_assumed_height_diagnostic,air_resistance,4,0.3145133909074924,0.4763755114897754,1.0,1.0
+answer_speed_assumed_height_diagnostic,no_air_resistance,4,0.8147198827277745,1.0439096434220456,0.25,0.75
+answer_speed_height_diagnostic,air_resistance,4,0.3125515673035728,0.4897027212158851,1.0,1.0
+answer_speed_height_diagnostic,no_air_resistance,4,0.8018319998243594,1.0387589441329155,0.25,0.75
+video_speed_assumed_height,air_resistance,3,0.3293722901628196,0.4370195628360256,1.0,1.0
+video_speed_assumed_height,no_air_resistance,3,0.7427897132755891,0.8731111352384753,0.0,1.0

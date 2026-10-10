@@ -1,0 +1,15 @@
+from pathlib import Path
+import pandas as pd,cv2,numpy as np
+R=Path(__file__).resolve().parent;df=pd.read_csv(R/'cases.csv');old=pd.read_csv(R.parent/'search_area_trial/cases.csv');baseline=pd.read_csv(R.parent/'ambiguity_trial/sequential_cases.csv');allrows=pd.concat([baseline[baseline.method.isin(['detector_only','bounce_reset_visual_override'])],old[old.method=='predicted_roi'],df]);summary=allrows.groupby(['method','status']).size().unstack(fill_value=0);summary.to_csv(R/'comparison.csv')
+text=['# Higher-resolution local search','','Exploratory follow-up on the same five development clips. Two resolutions (960 and 1280) were fixed before this run. Same 384-pixel crop, motion gate, confidence threshold, five verified starting observations and full-frame fallback as the previous experiment. Each method follows its own accepted detections, without later ground-truth corrections. Model inference is CPU-only, four threads.','',summary.to_markdown(),'','## Cost and position error']
+for method,g in df.groupby('method'):
+ text.append(f'- {method}: additional crop inference {g.cpu_seconds.mean():.3f} seconds/frame; average accepted visible-ball error {g.error_px.mean():.2f} pixels. Misses excluded from position error but included in counts.')
+text+=['','## Interpretation','Correct means within 20 pixels of the reviewed reference. Compare false picks as well as correct counts: extra detections are not necessarily real balls. This is repeated exploration of known clips, not independent validation or a general accuracy claim. Verified initial seeds and possible detector-training overlap limit conclusions. No settings have been promoted to the production tracker. This remains image-motion guidance, not calibrated 3D physics.','','## Reproduce','```sh','python3 analysis/search_resolution_trial/run.py','python3 analysis/search_resolution_trial/report.py','```','Dependencies and input files match the preceding search_area_trial. cases.csv and detections.json contain every scored choice and raw crop candidate; protocol.json records fixed parameters; audit.json records CPU use and model hash.']
+(R/'REPORT.md').write_text('\n'.join(text)+'\n')
+# Inspect the previously missed frame at identical visual scale for both resolutions.
+cap=cv2.VideoCapture(str(next(Path('pipeline/data/videos').glob('9ef5*'))));cap.set(cv2.CAP_PROP_POS_FRAMES,85);ok,im=cap.read();assert ok;cap.release();panels=[]
+for _,r in df[(df['clip']=='C2')&(df.frame==85)].iterrows():
+ crop=im[int(r.y0):int(r.y0)+384,int(r.x0):int(r.x0)+384].copy();cv2.drawMarker(crop,(round(r.prediction_x-r.x0),round(r.prediction_y-r.y0)),(0,190,255),cv2.MARKER_CROSS,15,1)
+ if pd.notna(r.selected_x):cv2.circle(crop,(round(r.selected_x-r.x0),round(r.selected_y-r.y0)),10,(0,180,0) if r.status=='correct' else (0,0,255),2)
+ canvas=np.full((450,384,3),245,np.uint8);canvas[66:]=crop;cv2.putText(canvas,r.method,(8,23),cv2.FONT_HERSHEY_SIMPLEX,.55,(20,20,20),1);cv2.putText(canvas,r.status,(8,48),cv2.FONT_HERSHEY_SIMPLEX,.55,(20,20,20),1);panels.append(canvas)
+cv2.imwrite(str(R/'missed_frame_review.jpg'),np.hstack(panels));print(summary.to_string())

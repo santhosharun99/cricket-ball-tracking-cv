@@ -1,0 +1,5 @@
+method,cases,correct,wrong,abstained,rate,median_error_px
+blend,15,5,0,10,0.3333333333333333,87.4736014656086
+bounce_reset,15,4,0,11,0.26666666666666666,87.4736014656086
+bounce_reset_visual_override,15,13,0,2,0.8666666666666667,87.4736014656086
+detector_only,15,15,0,0,1.0,

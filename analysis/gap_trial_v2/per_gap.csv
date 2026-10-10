@@ -1,0 +1,9 @@
+gap,method,cases,correct,wrong,median_error_px
+2,blend,25,15,0,32.64264745738274
+2,bounce_reset,25,18,0,20.613661186511294
+2,bounce_reset_visual_override,25,24,0,20.613661186511294
+2,detector_only,25,25,0,
+3,blend,21,11,0,59.997355987525125
+3,bounce_reset,21,13,0,47.022225690462484
+3,bounce_reset_visual_override,21,20,0,47.022225690462484
+3,detector_only,21,21,0,

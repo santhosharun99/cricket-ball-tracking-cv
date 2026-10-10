@@ -1,0 +1,22 @@
+clips: 600 total, 510 train, 90 val
+frames: 1530 train, 270 val
+epoch 1/18  train_loss=0.7062 train_acc=0.490  val_frame_acc=0.478  val_clip_acc=0.478
+epoch 2/18  train_loss=0.6914 train_acc=0.531  val_frame_acc=0.470  val_clip_acc=0.478
+epoch 3/18  train_loss=0.6986 train_acc=0.501  val_frame_acc=0.537  val_clip_acc=0.544
+epoch 4/18  train_loss=0.6948 train_acc=0.497  val_frame_acc=0.496  val_clip_acc=0.478
+epoch 5/18  train_loss=0.6954 train_acc=0.493  val_frame_acc=0.419  val_clip_acc=0.422
+epoch 6/18  train_loss=0.6958 train_acc=0.498  val_frame_acc=0.533  val_clip_acc=0.522
+epoch 7/18  train_loss=0.6962 train_acc=0.492  val_frame_acc=0.474  val_clip_acc=0.467
+epoch 8/18  train_loss=0.6908 train_acc=0.532  val_frame_acc=0.511  val_clip_acc=0.500
+epoch 9/18  train_loss=0.6919 train_acc=0.518  val_frame_acc=0.493  val_clip_acc=0.500
+epoch 10/18  train_loss=0.6888 train_acc=0.530  val_frame_acc=0.463  val_clip_acc=0.444
+epoch 11/18  train_loss=0.6872 train_acc=0.538  val_frame_acc=0.470  val_clip_acc=0.456
+epoch 12/18  train_loss=0.6870 train_acc=0.535  val_frame_acc=0.478  val_clip_acc=0.456
+epoch 13/18  train_loss=0.6851 train_acc=0.552  val_frame_acc=0.478  val_clip_acc=0.478
+epoch 14/18  train_loss=0.6870 train_acc=0.538  val_frame_acc=0.467  val_clip_acc=0.478
+epoch 15/18  train_loss=0.6867 train_acc=0.527  val_frame_acc=0.474  val_clip_acc=0.478
+epoch 16/18  train_loss=0.6824 train_acc=0.556  val_frame_acc=0.478  val_clip_acc=0.478
+epoch 17/18  train_loss=0.6841 train_acc=0.543  val_frame_acc=0.478  val_clip_acc=0.478
+epoch 18/18  train_loss=0.6812 train_acc=0.564  val_frame_acc=0.478  val_clip_acc=0.478
+
+Best val clip-level accuracy: 0.544

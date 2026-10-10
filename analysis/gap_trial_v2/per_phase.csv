@@ -1,0 +1,13 @@
+phase,method,cases,correct,wrong,median_error_px
+bounce_or_after,blend,17,8,0,67.25838995132912
+bounce_or_after,bounce_reset,17,8,0,67.25838995132912
+bounce_or_after,bounce_reset_visual_override,17,17,0,67.25838995132912
+bounce_or_after,detector_only,17,17,0,
+post_bounce_history,blend,10,0,0,150.64967929772106
+post_bounce_history,bounce_reset,10,5,0,65.76803739789702
+post_bounce_history,bounce_reset_visual_override,10,8,0,65.76803739789702
+post_bounce_history,detector_only,10,10,0,
+pre_bounce,blend,19,18,0,19.73332610883135
+pre_bounce,bounce_reset,19,18,0,19.73332610883135
+pre_bounce,bounce_reset_visual_override,19,19,0,19.73332610883135
+pre_bounce,detector_only,19,19,0,

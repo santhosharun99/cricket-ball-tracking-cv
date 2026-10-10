@@ -1,0 +1,6 @@
+clip,turn_candidates,predicted_bounce_frame,confirmation_frame,reference_bounce_frame,abs_error_frames,error_ms,track_start_proxy_not_release,release_reference,release_status
+C1,3,58.0,60.0,98.0,40.0,1600.0,51.0,"[90, 91]",not measured: hand-ball separation unavailable
+C2,0,,,,,,,None,not measured: hand-ball separation unavailable
+C3,1,95.0,97.0,95.0,0.0,0.0,87.0,"[83, 84]",not measured: hand-ball separation unavailable
+C4,0,,,104.0,,,,"[92, 93]",not measured: hand-ball separation unavailable
+C5,2,59.0,61.0,84.0,25.0,1000.0,57.0,"[73, 74]",not measured: hand-ball separation unavailable

@@ -1,0 +1,62 @@
+[
+  {
+    "clip": "C4",
+    "frames": [
+      93,
+      94,
+      95,
+      96,
+      97
+    ],
+    "evaluation_start": 98,
+    "end": 105
+  },
+  {
+    "clip": "C1",
+    "frames": [
+      91,
+      92,
+      93,
+      94,
+      95
+    ],
+    "evaluation_start": 96,
+    "end": 102
+  },
+  {
+    "clip": "C3",
+    "frames": [
+      84,
+      85,
+      86,
+      87,
+      88
+    ],
+    "evaluation_start": 89,
+    "end": 96
+  },
+  {
+    "clip": "C5",
+    "frames": [
+      74,
+      75,
+      76,
+      77,
+      78
+    ],
+    "evaluation_start": 79,
+    "end": 91
+  },
+  {
+    "clip": "C2",
+    "frames": [
+      76,
+      77,
+      78,
+      79,
+      80
+    ],
+    "evaluation_start": 81,
+    "end": 86
+  }
+]

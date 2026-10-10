@@ -1,0 +1,506 @@
+[
+  {
+    "clip": "C4",
+    "frame": 93,
+    "x": 831.641975308642,
+    "y": 366.7962962962963,
+    "status": "visible",
+    "reviewed_candidate_id": 1,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C4",
+    "frame": 94,
+    "x": 834.4904458598726,
+    "y": 379.4331210191083,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C4",
+    "frame": 95,
+    "x": 836.9638554216867,
+    "y": 398.03614457831327,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C4",
+    "frame": 96,
+    "x": 838.7637362637363,
+    "y": 422.1703296703297,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C4",
+    "frame": 97,
+    "x": 840.3862433862433,
+    "y": 450.7936507936508,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C4",
+    "frame": 98,
+    "x": 841.40625,
+    "y": 483.4375,
+    "status": "visible",
+    "reviewed_candidate_id": 1,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C4",
+    "frame": 99,
+    "x": 843.5208333333334,
+    "y": 519.390625,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C4",
+    "frame": 100,
+    "x": 845.8888888888889,
+    "y": 558.6755555555555,
+    "status": "visible",
+    "reviewed_candidate_id": 1,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C4",
+    "frame": 101,
+    "x": 848.1531531531532,
+    "y": 599.8963963963964,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C4",
+    "frame": 102,
+    "x": 850.8954545454545,
+    "y": 643.5681818181819,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C4",
+    "frame": 103,
+    "x": 853.2743362831858,
+    "y": 690.4690265486726,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C4",
+    "frame": 104,
+    "x": 855.3301435406698,
+    "y": 737.1291866028708,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C4",
+    "frame": 105,
+    "x": 859.8599221789883,
+    "y": 695.3307392996109,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C1",
+    "frame": 91,
+    "x": 839.9122807017544,
+    "y": 409.9605263157895,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C1",
+    "frame": 92,
+    "x": 845.5021459227468,
+    "y": 454.84120171673817,
+    "status": "visible",
+    "reviewed_candidate_id": 1,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C1",
+    "frame": 93,
+    "x": 851.0679245283019,
+    "y": 504.7547169811321,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C1",
+    "frame": 94,
+    "x": 855.1963963963964,
+    "y": 565.7531531531531,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C1",
+    "frame": 95,
+    "x": 860.7177033492823,
+    "y": 624.9537480063796,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C1",
+    "frame": 96,
+    "x": 869.6170395869191,
+    "y": 688.1772805507745,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C1",
+    "frame": 97,
+    "status": "unscorable",
+    "reason": "ball partly occluded by bowler; detector picked a pitch mark"
+  },
+  {
+    "clip": "C1",
+    "frame": 98,
+    "x": 886.429292929293,
+    "y": 795.8249158249158,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C1",
+    "frame": 99,
+    "x": 891.2213114754098,
+    "y": 756.1352459016393,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C1",
+    "frame": 100,
+    "x": 901.8695652173913,
+    "y": 708.5860869565217,
+    "status": "visible",
+    "reviewed_candidate_id": 1,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C1",
+    "frame": 101,
+    "x": 906.7309090909091,
+    "y": 657.1963636363637,
+    "status": "visible",
+    "reviewed_candidate_id": 1,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C1",
+    "frame": 102,
+    "x": 912.989247311828,
+    "y": 614.0250896057348,
+    "status": "visible",
+    "reviewed_candidate_id": 1,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C1",
+    "frame": 103,
+    "status": "unscorable",
+    "reason": "bat interaction/ball not independently separable; candidate is pitch mark"
+  },
+  {
+    "clip": "C3",
+    "frame": 84,
+    "x": 793.2093023255813,
+    "y": 393.9244186046512,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C3",
+    "frame": 85,
+    "x": 805.8895705521472,
+    "y": 395.80981595092027,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C3",
+    "frame": 86,
+    "x": 818.4423076923077,
+    "y": 403.2628205128205,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C3",
+    "frame": 87,
+    "x": 829.5555555555555,
+    "y": 418.72549019607845,
+    "status": "visible",
+    "reviewed_candidate_id": 1,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C3",
+    "frame": 88,
+    "x": 839.7897727272727,
+    "y": 442.4318181818182,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C3",
+    "frame": 89,
+    "x": 848.5105263157894,
+    "y": 475.0315789473684,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C3",
+    "frame": 90,
+    "x": 856.8076923076923,
+    "y": 515.2548076923077,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C3",
+    "frame": 91,
+    "x": 866.3722943722944,
+    "y": 560.8484848484849,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C3",
+    "frame": 92,
+    "x": 873.7351598173516,
+    "y": 611.945205479452,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C3",
+    "frame": 93,
+    "x": 879.9814241486068,
+    "y": 671.5232198142414,
+    "status": "visible",
+    "reviewed_candidate_id": 1,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C3",
+    "frame": 94,
+    "x": 887.3083832335329,
+    "y": 733.9820359281437,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C3",
+    "frame": 95,
+    "x": 896.2385964912281,
+    "y": 751.8771929824561,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C3",
+    "frame": 96,
+    "x": 908.0052631578948,
+    "y": 714.5736842105263,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C5",
+    "frame": 74,
+    "x": 880.7664233576643,
+    "y": 322.021897810219,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C5",
+    "frame": 75,
+    "x": 887.0,
+    "y": 333.64084507042253,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C5",
+    "frame": 76,
+    "x": 893.0,
+    "y": 351.2281879194631,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C5",
+    "frame": 77,
+    "x": 898.5734265734266,
+    "y": 372.76223776223776,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C5",
+    "frame": 78,
+    "x": 903.8732394366198,
+    "y": 397.4154929577465,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C5",
+    "frame": 79,
+    "x": 909.3197278911565,
+    "y": 423.97278911564626,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C5",
+    "frame": 80,
+    "x": 915.125,
+    "y": 451.99342105263156,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C5",
+    "frame": 81,
+    "x": 920.6858974358975,
+    "y": 481.5,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C5",
+    "frame": 82,
+    "x": 926.7857142857143,
+    "y": 512.6011904761905,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C5",
+    "frame": 83,
+    "x": 933.3421052631579,
+    "y": 546.1052631578947,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C5",
+    "frame": 84,
+    "x": 939.88,
+    "y": 580.4933333333333,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C5",
+    "frame": 85,
+    "x": 945.3942857142857,
+    "y": 543.2,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C5",
+    "frame": 86,
+    "status": "unscorable",
+    "reason": "ball overlaps bat region; no unambiguous separate ball reference"
+  },
+  {
+    "clip": "C5",
+    "frame": 87,
+    "x": 957.5416666666666,
+    "y": 475.4583333333333,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C5",
+    "frame": 88,
+    "x": 962.4459459459459,
+    "y": 447.2905405405405,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C5",
+    "frame": 89,
+    "x": 966.0928571428572,
+    "y": 424.20714285714286,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C5",
+    "frame": 90,
+    "x": 969.9674796747968,
+    "y": 401.2926829268293,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  },
+  {
+    "clip": "C5",
+    "frame": 91,
+    "x": 975.776119402985,
+    "y": 382.07462686567163,
+    "status": "visible",
+    "reviewed_candidate_id": 0,
+    "method": "human ball-identity review + original-image white-component centroid"
+  }
+]

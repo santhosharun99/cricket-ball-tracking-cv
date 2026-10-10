@@ -1,0 +1,9 @@
+{
+  "same_cases_and_baselines_reproduced": true,
+  "causal_history_boundaries_checked": true,
+  "turn_reset_equations_checked": true,
+  "small_jitter_does_not_trigger": true,
+  "ambiguous_override_rejected": true,
+  "empty_detection_abstains": true,
+  "duplicate_box_handling_checked": true
+}

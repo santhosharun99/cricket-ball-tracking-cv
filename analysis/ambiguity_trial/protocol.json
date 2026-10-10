@@ -1,0 +1,11 @@
+{
+ "purpose":"Sequential natural-miss and distractor test; do not reset to correct history after every frame",
+ "methods":["detector_only","confidence_only","bounce_reset_visual_override"],
+ "initialisation":"Same first five visible, manually verified detector observations for each method; afterwards update only with its own accepted detections, including mistakes. No label-driven reset or predicted-point insertion.",
+ "confidence_only":"Accept top candidate if confidence >=0.60 and lead >=0.20 over spatially distinct candidates (>20px). Identical visual rule as v2 override.",
+ "known_false_detection":{"clip":"C1","frame":97,"candidate_id":0,"reason":"visually verified pitch mark; real ball is partly occluded and has no reliable point label"},
+ "scope":"C1 ends F102, before ambiguous bat-contact F103; C3 F96, C4 F105, C5 F91. All previously labelled visible return frames retained. C5 F86 has no point reference and is unscorable unless later manual review establishes identity.",
+ "C2":"inspect F58-F86; label clearly visible balls independently of trajectory predictions; only score sequential tracking if at least five reliable seed sightings are available before evaluation frames; never invent hidden release or bounce labels",
+ "settings":"Use v2 predictor unchanged, fixed 60px search radius and 20px label match radius. No parameter tuning.",
+ "status":"Further development diagnostic on known clips; not independent held-out validation. Only a local image-motion prior, not a metric simulator."
+}

@@ -1,0 +1,13 @@
+phase,method,cases,correct,wrong,median_error_px,mean_error_px
+bounce_or_after,blend,17,8,0,67.25838995132912,78.91758925592723
+bounce_or_after,curved,17,6,0,78.72776984515922,103.81137679297504
+bounce_or_after,detector_only,17,17,0,,
+bounce_or_after,straight,17,10,0,54.66406936894106,68.99582944120257
+post_bounce_history,blend,10,0,0,150.6496792977211,179.3627279580523
+post_bounce_history,curved,10,2,0,220.12340924894204,211.84788977833074
+post_bounce_history,detector_only,10,10,0,,
+post_bounce_history,straight,10,1,0,213.77694233218665,209.59983167080003
+pre_bounce,blend,19,18,0,19.73332610883135,23.88676248406266
+pre_bounce,curved,19,19,0,15.699628624835508,16.063209212973103
+pre_bounce,detector_only,19,19,0,,
+pre_bounce,straight,19,10,0,52.45879709082479,61.67888496069511

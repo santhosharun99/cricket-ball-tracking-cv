@@ -1,0 +1,1571 @@
+[
+  {
+    "clip": "C1",
+    "frame": 96,
+    "selected": {
+      "id": 0,
+      "x": 869.3792724609375,
+      "y": 689.1810302734375,
+      "confidence": 0.5578437447547913
+    },
+    "event": null
+  },
+  {
+    "clip": "C1",
+    "frame": 97,
+    "selected": null,
+    "event": null
+  },
+  {
+    "clip": "C1",
+    "frame": 98,
+    "selected": {
+      "id": 0,
+      "x": 884.4605712890625,
+      "y": 796.710205078125,
+      "confidence": 0.7159968614578247
+    },
+    "event": null
+  },
+  {
+    "clip": "C1",
+    "frame": 99,
+    "selected": {
+      "id": 0,
+      "x": 891.7459716796875,
+      "y": 751.9913330078125,
+      "confidence": 0.6841246485710144
+    },
+    "event": {
+      "bounce_frame": 98,
+      "first_up_frame": 99,
+      "status": "tentative",
+      "confirmation_frame": null
+    }
+  },
+  {
+    "clip": "C1",
+    "frame": 100,
+    "selected": {
+      "id": 0,
+      "x": 899.3402709960938,
+      "y": 704.84033203125,
+      "confidence": 0.6659701466560364
+    },
+    "event": {
+      "bounce_frame": 98,
+      "first_up_frame": 99,
+      "status": "confirmed",
+      "confirmation_frame": 100
+    }
+  },
+  {
+    "clip": "C1",
+    "frame": 101,
+    "selected": {
+      "id": 0,
+      "x": 907.251708984375,
+      "y": 658.687744140625,
+      "confidence": 0.6593925952911377
+    },
+    "event": {
+      "bounce_frame": 98,
+      "first_up_frame": 99,
+      "status": "confirmed",
+      "confirmation_frame": 100
+    }
+  },
+  {
+    "clip": "C1",
+    "frame": 102,
+    "selected": {
+      "id": 0,
+      "x": 912.8534545898438,
+      "y": 615.178466796875,
+      "confidence": 0.7100985050201416
+    },
+    "event": {
+      "bounce_frame": 98,
+      "first_up_frame": 99,
+      "status": "confirmed",
+      "confirmation_frame": 100
+    }
+  },
+  {
+    "clip": "C1",
+    "frame": 103,
+    "selected": null,
+    "event": {
+      "bounce_frame": 98,
+      "first_up_frame": 99,
+      "status": "confirmed",
+      "confirmation_frame": 100
+    }
+  },
+  {
+    "clip": "C1",
+    "frame": 104,
+    "selected": null,
+    "event": {
+      "bounce_frame": 98,
+      "first_up_frame": 99,
+      "status": "confirmed",
+      "confirmation_frame": 100
+    }
+  },
+  {
+    "clip": "C1",
+    "frame": 105,
+    "selected": {
+      "id": 0,
+      "x": 655.529052734375,
+      "y": 710.9740600585938,
+      "confidence": 0.618455708026886
+    },
+    "event": {
+      "bounce_frame": 98,
+      "first_up_frame": 99,
+      "status": "confirmed",
+      "confirmation_frame": 100
+    }
+  },
+  {
+    "clip": "C1",
+    "frame": 106,
+    "selected": {
+      "id": 0,
+      "x": 571.1239624023438,
+      "y": 644.170166015625,
+      "confidence": 0.7047353982925415
+    },
+    "event": {
+      "bounce_frame": 98,
+      "first_up_frame": 99,
+      "status": "confirmed",
+      "confirmation_frame": 100
+    }
+  },
+  {
+    "clip": "C1",
+    "frame": 107,
+    "selected": {
+      "id": 0,
+      "x": 481.9300231933594,
+      "y": 572.595703125,
+      "confidence": 0.672758936882019
+    },
+    "event": {
+      "bounce_frame": 98,
+      "first_up_frame": 99,
+      "status": "confirmed",
+      "confirmation_frame": 100
+    }
+  },
+  {
+    "clip": "C1",
+    "frame": 108,
+    "selected": {
+      "id": 0,
+      "x": 387.8126220703125,
+      "y": 498.3477783203125,
+      "confidence": 0.6747503280639648
+    },
+    "event": {
+      "bounce_frame": 98,
+      "first_up_frame": 99,
+      "status": "confirmed",
+      "confirmation_frame": 100
+    }
+  },
+  {
+    "clip": "C1",
+    "frame": 109,
+    "selected": {
+      "id": 0,
+      "x": 291.79058837890625,
+      "y": 421.4856262207031,
+      "confidence": 0.6815063953399658
+    },
+    "event": {
+      "bounce_frame": 98,
+      "first_up_frame": 99,
+      "status": "confirmed",
+      "confirmation_frame": 100
+    }
+  },
+  {
+    "clip": "C1",
+    "frame": 110,
+    "selected": {
+      "id": 0,
+      "x": 190.6502685546875,
+      "y": 342.8102722167969,
+      "confidence": 0.2136039435863495
+    },
+    "event": {
+      "bounce_frame": 98,
+      "first_up_frame": 99,
+      "status": "confirmed",
+      "confirmation_frame": 100
+    }
+  },
+  {
+    "clip": "C1",
+    "frame": 111,
+    "selected": {
+      "id": 0,
+      "x": 91.72413635253906,
+      "y": 269.70330810546875,
+      "confidence": 0.05102306976914406
+    },
+    "event": {
+      "bounce_frame": 98,
+      "first_up_frame": 99,
+      "status": "confirmed",
+      "confirmation_frame": 100
+    }
+  },
+  {
+    "clip": "C1",
+    "frame": 112,
+    "selected": null,
+    "event": {
+      "bounce_frame": 98,
+      "first_up_frame": 99,
+      "status": "confirmed",
+      "confirmation_frame": 100
+    }
+  },
+  {
+    "clip": "C1",
+    "frame": 113,
+    "selected": null,
+    "event": {
+      "bounce_frame": 98,
+      "first_up_frame": 99,
+      "status": "confirmed",
+      "confirmation_frame": 100
+    }
+  },
+  {
+    "clip": "C1",
+    "frame": 114,
+    "selected": null,
+    "event": {
+      "bounce_frame": 98,
+      "first_up_frame": 99,
+      "status": "confirmed",
+      "confirmation_frame": 100
+    }
+  },
+  {
+    "clip": "C1",
+    "frame": 115,
+    "selected": null,
+    "event": {
+      "bounce_frame": 98,
+      "first_up_frame": 99,
+      "status": "confirmed",
+      "confirmation_frame": 100
+    }
+  },
+  {
+    "clip": "C2",
+    "frame": 81,
+    "selected": {
+      "id": 0,
+      "x": 530.2623291015625,
+      "y": 226.41525268554688,
+      "confidence": 0.6026122570037842
+    },
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 82,
+    "selected": {
+      "id": 1,
+      "x": 529.829833984375,
+      "y": 192.7681884765625,
+      "confidence": 0.05896749347448349
+    },
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 83,
+    "selected": {
+      "id": 0,
+      "x": 530.493408203125,
+      "y": 164.71685791015625,
+      "confidence": 0.5804480314254761
+    },
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 84,
+    "selected": {
+      "id": 1,
+      "x": 529.6751708984375,
+      "y": 150.9383544921875,
+      "confidence": 0.05145347863435745
+    },
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 85,
+    "selected": null,
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 86,
+    "selected": {
+      "id": 0,
+      "x": 534.5721435546875,
+      "y": 98.2847900390625,
+      "confidence": 0.36576831340789795
+    },
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 87,
+    "selected": {
+      "id": 0,
+      "x": 536.5067749023438,
+      "y": 87.8945541381836,
+      "confidence": 0.6762900352478027
+    },
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 88,
+    "selected": {
+      "id": 0,
+      "x": 540.628173828125,
+      "y": 70.17413330078125,
+      "confidence": 0.5004556179046631
+    },
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 89,
+    "selected": {
+      "id": 0,
+      "x": 549.359130859375,
+      "y": 55.713287353515625,
+      "confidence": 0.7103895545005798
+    },
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 90,
+    "selected": {
+      "id": 0,
+      "x": 553.2261962890625,
+      "y": 50.8571662902832,
+      "confidence": 0.7682071924209595
+    },
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 91,
+    "selected": {
+      "id": 0,
+      "x": 562.8395385742188,
+      "y": 44.53438949584961,
+      "confidence": 0.7656283974647522
+    },
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 92,
+    "selected": {
+      "id": 0,
+      "x": 574.178955078125,
+      "y": 40.77923583984375,
+      "confidence": 0.7371379733085632
+    },
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 93,
+    "selected": {
+      "id": 0,
+      "x": 581.3787841796875,
+      "y": 39.63964080810547,
+      "confidence": 0.7450851798057556
+    },
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 94,
+    "selected": {
+      "id": 0,
+      "x": 593.8360595703125,
+      "y": 36.942840576171875,
+      "confidence": 0.7614665031433105
+    },
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 95,
+    "selected": {
+      "id": 0,
+      "x": 600.9637451171875,
+      "y": 33.83391189575195,
+      "confidence": 0.7537608742713928
+    },
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 96,
+    "selected": {
+      "id": 0,
+      "x": 603.6312255859375,
+      "y": 32.98876953125,
+      "confidence": 0.7429749965667725
+    },
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 97,
+    "selected": {
+      "id": 0,
+      "x": 609.8536376953125,
+      "y": 32.09770965576172,
+      "confidence": 0.7407687902450562
+    },
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 98,
+    "selected": {
+      "id": 0,
+      "x": 619.398193359375,
+      "y": 32.093563079833984,
+      "confidence": 0.7313637733459473
+    },
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 99,
+    "selected": {
+      "id": 0,
+      "x": 623.9656372070312,
+      "y": 31.24073028564453,
+      "confidence": 0.7409466505050659
+    },
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 100,
+    "selected": {
+      "id": 0,
+      "x": 635.761962890625,
+      "y": 34.049285888671875,
+      "confidence": 0.7427573204040527
+    },
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 101,
+    "selected": {
+      "id": 0,
+      "x": 649.2354736328125,
+      "y": 47.770843505859375,
+      "confidence": 0.7086424231529236
+    },
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 102,
+    "selected": {
+      "id": 0,
+      "x": 655.3521728515625,
+      "y": 57.99934387207031,
+      "confidence": 0.6931437253952026
+    },
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 103,
+    "selected": {
+      "id": 0,
+      "x": 667.7042236328125,
+      "y": 88.26805114746094,
+      "confidence": 0.6437647342681885
+    },
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 104,
+    "selected": {
+      "id": 1,
+      "x": 676.45703125,
+      "y": 125.63082885742188,
+      "confidence": 0.2367498278617859
+    },
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 105,
+    "selected": {
+      "id": 0,
+      "x": 680.2623291015625,
+      "y": 146.76121520996094,
+      "confidence": 0.4505881667137146
+    },
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 106,
+    "selected": null,
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 107,
+    "selected": null,
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 108,
+    "selected": null,
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 109,
+    "selected": null,
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 110,
+    "selected": null,
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 111,
+    "selected": null,
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 112,
+    "selected": null,
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 113,
+    "selected": null,
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 114,
+    "selected": null,
+    "event": null
+  },
+  {
+    "clip": "C2",
+    "frame": 115,
+    "selected": null,
+    "event": null
+  },
+  {
+    "clip": "C3",
+    "frame": 89,
+    "selected": {
+      "id": 0,
+      "x": 849.2188720703125,
+      "y": 477.17431640625,
+      "confidence": 0.7083785533905029
+    },
+    "event": null
+  },
+  {
+    "clip": "C3",
+    "frame": 90,
+    "selected": {
+      "id": 0,
+      "x": 857.7081298828125,
+      "y": 516.1170654296875,
+      "confidence": 0.6558056473731995
+    },
+    "event": null
+  },
+  {
+    "clip": "C3",
+    "frame": 91,
+    "selected": {
+      "id": 0,
+      "x": 866.408203125,
+      "y": 562.712158203125,
+      "confidence": 0.6378381848335266
+    },
+    "event": null
+  },
+  {
+    "clip": "C3",
+    "frame": 92,
+    "selected": {
+      "id": 0,
+      "x": 874.8746337890625,
+      "y": 614.2528686523438,
+      "confidence": 0.6487259268760681
+    },
+    "event": null
+  },
+  {
+    "clip": "C3",
+    "frame": 93,
+    "selected": {
+      "id": 0,
+      "x": 880.2048950195312,
+      "y": 674.1141357421875,
+      "confidence": 0.6957738995552063
+    },
+    "event": null
+  },
+  {
+    "clip": "C3",
+    "frame": 94,
+    "selected": {
+      "id": 0,
+      "x": 887.6940307617188,
+      "y": 735.3247680664062,
+      "confidence": 0.7088212966918945
+    },
+    "event": null
+  },
+  {
+    "clip": "C3",
+    "frame": 95,
+    "selected": {
+      "id": 0,
+      "x": 896.6328735351562,
+      "y": 753.3231201171875,
+      "confidence": 0.65399569272995
+    },
+    "event": null
+  },
+  {
+    "clip": "C3",
+    "frame": 96,
+    "selected": {
+      "id": 0,
+      "x": 908.7847900390625,
+      "y": 715.8950805664062,
+      "confidence": 0.6862131357192993
+    },
+    "event": {
+      "bounce_frame": 95,
+      "first_up_frame": 96,
+      "status": "tentative",
+      "confirmation_frame": null
+    }
+  },
+  {
+    "clip": "C3",
+    "frame": 97,
+    "selected": {
+      "id": 0,
+      "x": 921.05859375,
+      "y": 679.6259765625,
+      "confidence": 0.7103840112686157
+    },
+    "event": {
+      "bounce_frame": 95,
+      "first_up_frame": 96,
+      "status": "confirmed",
+      "confirmation_frame": 97
+    }
+  },
+  {
+    "clip": "C3",
+    "frame": 98,
+    "selected": null,
+    "event": {
+      "bounce_frame": 95,
+      "first_up_frame": 96,
+      "status": "confirmed",
+      "confirmation_frame": 97
+    }
+  },
+  {
+    "clip": "C3",
+    "frame": 99,
+    "selected": null,
+    "event": {
+      "bounce_frame": 95,
+      "first_up_frame": 96,
+      "status": "confirmed",
+      "confirmation_frame": 97
+    }
+  },
+  {
+    "clip": "C3",
+    "frame": 100,
+    "selected": null,
+    "event": {
+      "bounce_frame": 95,
+      "first_up_frame": 96,
+      "status": "confirmed",
+      "confirmation_frame": 97
+    }
+  },
+  {
+    "clip": "C3",
+    "frame": 101,
+    "selected": null,
+    "event": {
+      "bounce_frame": 95,
+      "first_up_frame": 96,
+      "status": "confirmed",
+      "confirmation_frame": 97
+    }
+  },
+  {
+    "clip": "C3",
+    "frame": 102,
+    "selected": null,
+    "event": {
+      "bounce_frame": 95,
+      "first_up_frame": 96,
+      "status": "confirmed",
+      "confirmation_frame": 97
+    }
+  },
+  {
+    "clip": "C3",
+    "frame": 103,
+    "selected": null,
+    "event": {
+      "bounce_frame": 95,
+      "first_up_frame": 96,
+      "status": "confirmed",
+      "confirmation_frame": 97
+    }
+  },
+  {
+    "clip": "C3",
+    "frame": 104,
+    "selected": null,
+    "event": {
+      "bounce_frame": 95,
+      "first_up_frame": 96,
+      "status": "confirmed",
+      "confirmation_frame": 97
+    }
+  },
+  {
+    "clip": "C3",
+    "frame": 105,
+    "selected": null,
+    "event": {
+      "bounce_frame": 95,
+      "first_up_frame": 96,
+      "status": "confirmed",
+      "confirmation_frame": 97
+    }
+  },
+  {
+    "clip": "C3",
+    "frame": 106,
+    "selected": null,
+    "event": {
+      "bounce_frame": 95,
+      "first_up_frame": 96,
+      "status": "confirmed",
+      "confirmation_frame": 97
+    }
+  },
+  {
+    "clip": "C3",
+    "frame": 107,
+    "selected": null,
+    "event": {
+      "bounce_frame": 95,
+      "first_up_frame": 96,
+      "status": "confirmed",
+      "confirmation_frame": 97
+    }
+  },
+  {
+    "clip": "C3",
+    "frame": 108,
+    "selected": null,
+    "event": {
+      "bounce_frame": 95,
+      "first_up_frame": 96,
+      "status": "confirmed",
+      "confirmation_frame": 97
+    }
+  },
+  {
+    "clip": "C3",
+    "frame": 109,
+    "selected": null,
+    "event": {
+      "bounce_frame": 95,
+      "first_up_frame": 96,
+      "status": "confirmed",
+      "confirmation_frame": 97
+    }
+  },
+  {
+    "clip": "C3",
+    "frame": 110,
+    "selected": null,
+    "event": {
+      "bounce_frame": 95,
+      "first_up_frame": 96,
+      "status": "confirmed",
+      "confirmation_frame": 97
+    }
+  },
+  {
+    "clip": "C3",
+    "frame": 111,
+    "selected": null,
+    "event": {
+      "bounce_frame": 95,
+      "first_up_frame": 96,
+      "status": "confirmed",
+      "confirmation_frame": 97
+    }
+  },
+  {
+    "clip": "C3",
+    "frame": 112,
+    "selected": null,
+    "event": {
+      "bounce_frame": 95,
+      "first_up_frame": 96,
+      "status": "confirmed",
+      "confirmation_frame": 97
+    }
+  },
+  {
+    "clip": "C3",
+    "frame": 113,
+    "selected": null,
+    "event": {
+      "bounce_frame": 95,
+      "first_up_frame": 96,
+      "status": "confirmed",
+      "confirmation_frame": 97
+    }
+  },
+  {
+    "clip": "C3",
+    "frame": 114,
+    "selected": null,
+    "event": {
+      "bounce_frame": 95,
+      "first_up_frame": 96,
+      "status": "confirmed",
+      "confirmation_frame": 97
+    }
+  },
+  {
+    "clip": "C3",
+    "frame": 115,
+    "selected": null,
+    "event": {
+      "bounce_frame": 95,
+      "first_up_frame": 96,
+      "status": "confirmed",
+      "confirmation_frame": 97
+    }
+  },
+  {
+    "clip": "C4",
+    "frame": 98,
+    "selected": {
+      "id": 0,
+      "x": 842.7958984375,
+      "y": 484.5450744628906,
+      "confidence": 0.5874477624893188
+    },
+    "event": null
+  },
+  {
+    "clip": "C4",
+    "frame": 99,
+    "selected": {
+      "id": 0,
+      "x": 844.0694580078125,
+      "y": 520.887451171875,
+      "confidence": 0.5487746000289917
+    },
+    "event": null
+  },
+  {
+    "clip": "C4",
+    "frame": 100,
+    "selected": {
+      "id": 0,
+      "x": 846.68701171875,
+      "y": 561.5838623046875,
+      "confidence": 0.6420812606811523
+    },
+    "event": null
+  },
+  {
+    "clip": "C4",
+    "frame": 101,
+    "selected": {
+      "id": 0,
+      "x": 849.391845703125,
+      "y": 601.584228515625,
+      "confidence": 0.45363983511924744
+    },
+    "event": null
+  },
+  {
+    "clip": "C4",
+    "frame": 102,
+    "selected": {
+      "id": 0,
+      "x": 852.5143432617188,
+      "y": 646.7337036132812,
+      "confidence": 0.665844738483429
+    },
+    "event": null
+  },
+  {
+    "clip": "C4",
+    "frame": 103,
+    "selected": {
+      "id": 0,
+      "x": 854.5035400390625,
+      "y": 693.3366088867188,
+      "confidence": 0.6810536980628967
+    },
+    "event": null
+  },
+  {
+    "clip": "C4",
+    "frame": 104,
+    "selected": {
+      "id": 0,
+      "x": 856.357177734375,
+      "y": 739.224609375,
+      "confidence": 0.6778642535209656
+    },
+    "event": null
+  },
+  {
+    "clip": "C4",
+    "frame": 105,
+    "selected": {
+      "id": 0,
+      "x": 860.6787109375,
+      "y": 697.8236083984375,
+      "confidence": 0.6717499494552612
+    },
+    "event": {
+      "bounce_frame": 104,
+      "first_up_frame": 105,
+      "status": "tentative",
+      "confirmation_frame": null
+    }
+  },
+  {
+    "clip": "C4",
+    "frame": 106,
+    "selected": null,
+    "event": {
+      "bounce_frame": 104,
+      "first_up_frame": 105,
+      "status": "tentative",
+      "confirmation_frame": null
+    }
+  },
+  {
+    "clip": "C4",
+    "frame": 107,
+    "selected": null,
+    "event": {
+      "bounce_frame": 104,
+      "first_up_frame": 105,
+      "status": "tentative",
+      "confirmation_frame": null
+    }
+  },
+  {
+    "clip": "C4",
+    "frame": 108,
+    "selected": null,
+    "event": {
+      "bounce_frame": 104,
+      "first_up_frame": 105,
+      "status": "tentative",
+      "confirmation_frame": null
+    }
+  },
+  {
+    "clip": "C4",
+    "frame": 109,
+    "selected": null,
+    "event": {
+      "bounce_frame": 104,
+      "first_up_frame": 105,
+      "status": "unconfirmed",
+      "confirmation_frame": null,
+      "closed_frame": 109
+    }
+  },
+  {
+    "clip": "C4",
+    "frame": 110,
+    "selected": null,
+    "event": {
+      "bounce_frame": 104,
+      "first_up_frame": 105,
+      "status": "unconfirmed",
+      "confirmation_frame": null,
+      "closed_frame": 109
+    }
+  },
+  {
+    "clip": "C4",
+    "frame": 111,
+    "selected": null,
+    "event": {
+      "bounce_frame": 104,
+      "first_up_frame": 105,
+      "status": "unconfirmed",
+      "confirmation_frame": null,
+      "closed_frame": 109
+    }
+  },
+  {
+    "clip": "C4",
+    "frame": 112,
+    "selected": null,
+    "event": {
+      "bounce_frame": 104,
+      "first_up_frame": 105,
+      "status": "unconfirmed",
+      "confirmation_frame": null,
+      "closed_frame": 109
+    }
+  },
+  {
+    "clip": "C4",
+    "frame": 113,
+    "selected": null,
+    "event": {
+      "bounce_frame": 104,
+      "first_up_frame": 105,
+      "status": "unconfirmed",
+      "confirmation_frame": null,
+      "closed_frame": 109
+    }
+  },
+  {
+    "clip": "C4",
+    "frame": 114,
+    "selected": null,
+    "event": {
+      "bounce_frame": 104,
+      "first_up_frame": 105,
+      "status": "unconfirmed",
+      "confirmation_frame": null,
+      "closed_frame": 109
+    }
+  },
+  {
+    "clip": "C4",
+    "frame": 115,
+    "selected": null,
+    "event": {
+      "bounce_frame": 104,
+      "first_up_frame": 105,
+      "status": "unconfirmed",
+      "confirmation_frame": null,
+      "closed_frame": 109
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 79,
+    "selected": {
+      "id": 0,
+      "x": 909.7801513671875,
+      "y": 425.39501953125,
+      "confidence": 0.6817721724510193
+    },
+    "event": null
+  },
+  {
+    "clip": "C5",
+    "frame": 80,
+    "selected": {
+      "id": 0,
+      "x": 915.3275756835938,
+      "y": 452.47210693359375,
+      "confidence": 0.622078001499176
+    },
+    "event": null
+  },
+  {
+    "clip": "C5",
+    "frame": 81,
+    "selected": {
+      "id": 0,
+      "x": 921.6544799804688,
+      "y": 482.6844177246094,
+      "confidence": 0.66823410987854
+    },
+    "event": null
+  },
+  {
+    "clip": "C5",
+    "frame": 82,
+    "selected": {
+      "id": 0,
+      "x": 927.8690185546875,
+      "y": 514.5257568359375,
+      "confidence": 0.7024288773536682
+    },
+    "event": null
+  },
+  {
+    "clip": "C5",
+    "frame": 83,
+    "selected": {
+      "id": 0,
+      "x": 934.6375122070312,
+      "y": 547.0643310546875,
+      "confidence": 0.6671526432037354
+    },
+    "event": null
+  },
+  {
+    "clip": "C5",
+    "frame": 84,
+    "selected": {
+      "id": 0,
+      "x": 940.6785278320312,
+      "y": 582.06494140625,
+      "confidence": 0.6821551322937012
+    },
+    "event": null
+  },
+  {
+    "clip": "C5",
+    "frame": 85,
+    "selected": {
+      "id": 0,
+      "x": 945.8135375976562,
+      "y": 545.029541015625,
+      "confidence": 0.7231466174125671
+    },
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "tentative",
+      "confirmation_frame": null
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 86,
+    "selected": null,
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "tentative",
+      "confirmation_frame": null
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 87,
+    "selected": {
+      "id": 0,
+      "x": 958.2929077148438,
+      "y": 476.3155517578125,
+      "confidence": 0.7354869246482849
+    },
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 88,
+    "selected": {
+      "id": 0,
+      "x": 963.1563720703125,
+      "y": 448.4830627441406,
+      "confidence": 0.7183082699775696
+    },
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 89,
+    "selected": {
+      "id": 0,
+      "x": 967.1339111328125,
+      "y": 424.9045715332031,
+      "confidence": 0.7065007090568542
+    },
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 90,
+    "selected": {
+      "id": 0,
+      "x": 970.838134765625,
+      "y": 402.92010498046875,
+      "confidence": 0.6511054039001465
+    },
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 91,
+    "selected": {
+      "id": 0,
+      "x": 976.3665771484375,
+      "y": 383.1231994628906,
+      "confidence": 0.6743395924568176
+    },
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 92,
+    "selected": {
+      "id": 0,
+      "x": 981.9664306640625,
+      "y": 364.395751953125,
+      "confidence": 0.3022196292877197
+    },
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 93,
+    "selected": null,
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 94,
+    "selected": null,
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 95,
+    "selected": null,
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 96,
+    "selected": null,
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 97,
+    "selected": null,
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 98,
+    "selected": null,
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 99,
+    "selected": null,
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 100,
+    "selected": null,
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 101,
+    "selected": null,
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 102,
+    "selected": null,
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 103,
+    "selected": null,
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 104,
+    "selected": null,
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 105,
+    "selected": null,
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 106,
+    "selected": null,
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 107,
+    "selected": null,
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 108,
+    "selected": null,
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 109,
+    "selected": null,
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 110,
+    "selected": null,
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 111,
+    "selected": null,
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 112,
+    "selected": null,
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 113,
+    "selected": {
+      "id": 0,
+      "x": 1103.0977783203125,
+      "y": 381.98040771484375,
+      "confidence": 0.6396554112434387
+    },
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 114,
+    "selected": {
+      "id": 0,
+      "x": 1117.894775390625,
+      "y": 387.1539306640625,
+      "confidence": 0.25315847992897034
+    },
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  },
+  {
+    "clip": "C5",
+    "frame": 115,
+    "selected": null,
+    "event": {
+      "bounce_frame": 84,
+      "first_up_frame": 85,
+      "status": "confirmed",
+      "confirmation_frame": 87
+    }
+  }
+]

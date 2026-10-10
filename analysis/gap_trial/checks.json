@@ -1,0 +1,8 @@
+{
+  "quadratic_equation_check": true,
+  "future_or_present_history_rejected": true,
+  "empty_candidates_abstain": true,
+  "uses_metric_ground_truth": false,
+  "uses_future_speed_or_bounce": false,
+  "correct_history_seed_assumption": true
+}

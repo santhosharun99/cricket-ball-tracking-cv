@@ -1,0 +1,11 @@
+state,method,cases,correct,wrong,median_error_px
+confirmed_turn,bounce_reset,2,2,0,39.15879957287484
+confirmed_turn,bounce_reset_visual_override,2,2,0,39.15879957287484
+confirmed_turn,detector_only,2,2,0,
+no_observed_turn,blend,46,26,0,45.445564204072326
+no_observed_turn,bounce_reset,41,26,0,32.64264745738274
+no_observed_turn,bounce_reset_visual_override,41,39,0,32.64264745738274
+no_observed_turn,detector_only,41,41,0,
+tentative_turn,bounce_reset,3,3,0,13.423431521192002
+tentative_turn,bounce_reset_visual_override,3,3,0,13.423431521192002
+tentative_turn,detector_only,3,3,0,

@@ -1,0 +1,15 @@
+Matplotlib created a temporary cache directory at /var/folders/jc/8ysq7rc97kj7jj3kf0kxd29h0000gn/T/matplotlib-xbeumrld because the default path (~/.matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Matplotlib is building the font cache; this may take a moment.
+objc[92631]: Class AVFFrameReceiver is implemented in both /opt/anaconda3/lib/python3.12/site-packages/cv2/.dylibs/libavdevice.61.3.100.dylib (0x11ce543a8) and /opt/anaconda3/lib/python3.12/site-packages/av/.dylibs/libavdevice.62.1.100.dylib (0x1421ac3a8). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+objc[92631]: Class AVFAudioReceiver is implemented in both /opt/anaconda3/lib/python3.12/site-packages/cv2/.dylibs/libavdevice.61.3.100.dylib (0x11ce543f8) and /opt/anaconda3/lib/python3.12/site-packages/av/.dylibs/libavdevice.62.1.100.dylib (0x1421ac3f8). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+C1 complete; turn candidates 3
+C2 complete; turn candidates 0
+C3 complete; turn candidates 1
+C4 complete; turn candidates 0
+C5 complete; turn candidates 2
+clip  turn_candidates  predicted_bounce_frame  confirmation_frame  reference_bounce_frame  abs_error_frames  error_ms  track_start_proxy_not_release release_reference                                 release_status
+  C1                3                    58.0                60.0                    98.0              40.0    1600.0                           51.0          [90, 91] not measured: hand-ball separation unavailable
+  C2                0                     NaN                 NaN                     NaN               NaN       NaN                            NaN              None not measured: hand-ball separation unavailable
+  C3                1                    95.0                97.0                    95.0               0.0       0.0                           87.0          [83, 84] not measured: hand-ball separation unavailable
+  C4                0                     NaN                 NaN                   104.0               NaN       NaN                            NaN          [92, 93] not measured: hand-ball separation unavailable
+  C5                2                    59.0                61.0                    84.0              25.0    1000.0                           57.0          [73, 74] not measured: hand-ball separation unavailable

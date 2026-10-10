@@ -1,0 +1,11 @@
+{
+  "python": "3.12.7",
+  "opencv": "5.0.0",
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "torch": "2.9.1",
+  "ultralytics": "8.4.123",
+  "pillow": "12.2.0",
+  "model_sha256": "c46575237cf11196427f04dfc2dd2c45963bbe8178fd50d98a259d005ad3b1e2",
+  "protocol_sha256": "3d8e14800f712a2348f2d6131f16ebc321849557288c606bec7161ed0255a7dc"
+}

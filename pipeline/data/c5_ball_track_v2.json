@@ -1,0 +1,590 @@
+{
+  "42": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "43": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "44": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "45": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "46": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "47": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "48": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "49": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "50": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "51": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "52": {
+    "x": -276.3,
+    "y": -1.2,
+    "area": null,
+    "note": "coasted (not found within r<=130)"
+  },
+  "53": {
+    "x": -98.8,
+    "y": 39.2,
+    "area": null,
+    "note": "coasted (not found within r<=130)"
+  },
+  "54": {
+    "x": 78.2,
+    "y": 77.8,
+    "area": null,
+    "note": "coasted (not found within r<=130)"
+  },
+  "55": {
+    "x": 254.1,
+    "y": 112.5,
+    "area": null,
+    "note": "coasted (not found within r<=130)"
+  },
+  "56": {
+    "x": 428.0,
+    "y": 139.7,
+    "area": 3,
+    "note": "search radius 25px"
+  },
+  "57": {
+    "x": 597.8,
+    "y": 151.6,
+    "area": 28,
+    "note": "search radius 60px"
+  },
+  "58": {
+    "x": 759.2,
+    "y": 133.2,
+    "area": 4,
+    "note": "search radius 90px"
+  },
+  "59": {
+    "x": 859.5,
+    "y": 89.5,
+    "area": 4,
+    "note": "search radius 25px"
+  },
+  "60": {
+    "x": 953.2,
+    "y": 3.2,
+    "area": 23,
+    "note": "search radius 130px"
+  },
+  "61": {
+    "x": 1004.5,
+    "y": 3.0,
+    "area": 48,
+    "note": "search radius 130px"
+  },
+  "62": {
+    "x": 1021.6,
+    "y": 153.7,
+    "area": 135,
+    "note": "search radius 60px"
+  },
+  "63": {
+    "x": 1032.5,
+    "y": 391.2,
+    "area": 14,
+    "note": "search radius 60px"
+  },
+  "64": {
+    "x": 1030.5,
+    "y": 552.0,
+    "area": 6,
+    "note": "search radius 25px"
+  },
+  "65": {
+    "x": 1051.3,
+    "y": 659.6,
+    "area": 35,
+    "note": "search radius 25px"
+  },
+  "66": {
+    "x": 1047.3,
+    "y": 735.3,
+    "area": 3,
+    "note": "search radius 25px"
+  },
+  "67": {
+    "x": 1014.4,
+    "y": 785.1,
+    "area": 11,
+    "note": "search radius 25px"
+  },
+  "68": {
+    "x": 962.7,
+    "y": 787.7,
+    "area": 3,
+    "note": "search radius 90px"
+  },
+  "69": {
+    "x": 917.3,
+    "y": 746.5,
+    "area": 34,
+    "note": "search radius 25px"
+  },
+  "70": {
+    "x": 892.5,
+    "y": 628.4,
+    "area": 59,
+    "note": "search radius 25px"
+  },
+  "71": {
+    "x": 871.6,
+    "y": 518.2,
+    "area": 5,
+    "note": "search radius 25px"
+  },
+  "72": {
+    "x": 871.4,
+    "y": 432.7,
+    "area": 14,
+    "note": "search radius 25px"
+  },
+  "73": {
+    "x": 870.5,
+    "y": 368.4,
+    "area": 117,
+    "note": "search radius 60px"
+  },
+  "74": {
+    "x": 881.0,
+    "y": 322.0,
+    "area": null,
+    "note": "manually verified seed"
+  },
+  "75": {
+    "x": 887.1,
+    "y": 333.8,
+    "area": 175,
+    "note": "search radius 25px"
+  },
+  "76": {
+    "x": 893.2,
+    "y": 351.1,
+    "area": 178,
+    "note": "search radius 25px"
+  },
+  "77": {
+    "x": 898.7,
+    "y": 372.7,
+    "area": 172,
+    "note": "search radius 25px"
+  },
+  "78": {
+    "x": 903.8,
+    "y": 397.3,
+    "area": 178,
+    "note": "search radius 25px"
+  },
+  "79": {
+    "x": 909.4,
+    "y": 423.8,
+    "area": 171,
+    "note": "search radius 25px"
+  },
+  "80": {
+    "x": 914.9,
+    "y": 452.4,
+    "area": 186,
+    "note": "search radius 25px"
+  },
+  "81": {
+    "x": 895.9,
+    "y": 498.1,
+    "area": 8,
+    "note": "search radius 25px"
+  },
+  "82": {
+    "x": 839.9,
+    "y": 574.6,
+    "area": 12,
+    "note": "search radius 25px"
+  },
+  "83": {
+    "x": 820.2,
+    "y": 615.0,
+    "area": 150,
+    "note": "search radius 60px"
+  },
+  "84": {
+    "x": 826.3,
+    "y": 655.5,
+    "area": 13,
+    "note": "search radius 25px"
+  },
+  "85": {
+    "x": 853.0,
+    "y": 642.3,
+    "area": 3,
+    "note": "search radius 60px"
+  },
+  "86": {
+    "x": 854.1,
+    "y": 636.4,
+    "area": 28,
+    "note": "search radius 40px"
+  },
+  "87": {
+    "x": 843.4,
+    "y": 640.8,
+    "area": 24,
+    "note": "search radius 25px"
+  },
+  "88": {
+    "x": 830.4,
+    "y": 642.7,
+    "area": 9,
+    "note": "search radius 25px"
+  },
+  "89": {
+    "x": 782.1,
+    "y": 643.2,
+    "area": 200,
+    "note": "search radius 40px"
+  },
+  "90": {
+    "x": 711.0,
+    "y": 604.4,
+    "area": 55,
+    "note": "search radius 40px"
+  },
+  "91": {
+    "x": 693.4,
+    "y": 674.2,
+    "area": 5,
+    "note": "search radius 130px"
+  },
+  "92": {
+    "x": 718.1,
+    "y": 731.8,
+    "area": 9,
+    "note": "search radius 90px"
+  },
+  "93": {
+    "x": 752.1,
+    "y": 748.8,
+    "area": 185,
+    "note": "search radius 40px"
+  },
+  "94": {
+    "x": 806.5,
+    "y": 724.5,
+    "area": 61,
+    "note": "search radius 25px"
+  },
+  "95": {
+    "x": 937.6,
+    "y": 639.8,
+    "area": 40,
+    "note": "search radius 90px"
+  },
+  "96": {
+    "x": 1094.6,
+    "y": 571.9,
+    "area": 37,
+    "note": "search radius 60px"
+  },
+  "97": {
+    "x": 1354.9,
+    "y": 636.4,
+    "area": 87,
+    "note": "search radius 130px"
+  },
+  "98": {
+    "x": 1726.2,
+    "y": 707.6,
+    "area": 5,
+    "note": "search radius 90px"
+  },
+  "99": {
+    "x": 2152.9,
+    "y": 782.1,
+    "area": null,
+    "note": "coasted (not found within r<=130)"
+  },
+  "100": {
+    "x": 2607.4,
+    "y": 858.2,
+    "area": null,
+    "note": "coasted (not found within r<=130)"
+  },
+  "101": {
+    "x": 3075.7,
+    "y": 935.2,
+    "area": null,
+    "note": "coasted (not found within r<=130)"
+  },
+  "102": {
+    "x": 3550.9,
+    "y": 1012.6,
+    "area": null,
+    "note": "coasted (not found within r<=130)"
+  },
+  "103": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "104": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "105": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "106": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "107": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "108": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "109": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "110": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "111": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "112": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "113": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "114": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "115": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "116": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "117": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "118": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "119": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "120": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "121": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "122": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "123": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "124": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "125": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "126": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "127": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "128": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "129": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "130": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "131": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "132": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "133": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "134": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "135": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "136": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "137": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "138": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  },
+  "139": {
+    "x": null,
+    "y": null,
+    "area": null,
+    "note": "lost - exceeded coast limit"
+  }
+}

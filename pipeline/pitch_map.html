@@ -1,0 +1,395 @@
+<title>Delivery Pitch Map</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --bg:#f6f3ea;
+    --surface:#ffffff;
+    --surface-2:#eef0e6;
+    --ink:#1b241d;
+    --ink-muted:#5c6b5f;
+    --line:#d8dcc9;
+    --turf:#2f5b3d;
+    --turf-2:#3f7350;
+    --pitch-tan:#cdab77;
+    --pitch-tan-2:#b8925c;
+    --chalk:#f6f1e4;
+    --true-path:#26478a;
+    --true-path-soft:#26478a22;
+    --our-path:#c2660f;
+    --our-path-soft:#c2660f22;
+    --good:#2f7a4f;
+    --bad:#b0402c;
+    --accent:#2f5b3d;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#111a14;
+      --surface:#17221b;
+      --surface-2:#1d2a21;
+      --ink:#e9ede7;
+      --ink-muted:#93a596;
+      --line:#2b3a2f;
+      --turf:#1c3524;
+      --turf-2:#2a4a34;
+      --pitch-tan:#a9895c;
+      --pitch-tan-2:#8f7249;
+      --chalk:#efe8d6;
+      --true-path:#7fa0e0;
+      --true-path-soft:#7fa0e02a;
+      --our-path:#e6a25f;
+      --our-path-soft:#e6a25f2a;
+      --good:#6fbd8e;
+      --bad:#e08a76;
+      --accent:#7fbd93;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#111a14;
+    --surface:#17221b;
+    --surface-2:#1d2a21;
+    --ink:#e9ede7;
+    --ink-muted:#93a596;
+    --line:#2b3a2f;
+    --turf:#1c3524;
+    --turf-2:#2a4a34;
+    --pitch-tan:#a9895c;
+    --pitch-tan-2:#8f7249;
+    --chalk:#efe8d6;
+    --true-path:#7fa0e0;
+    --true-path-soft:#7fa0e02a;
+    --our-path:#e6a25f;
+    --our-path-soft:#e6a25f2a;
+    --good:#6fbd8e;
+    --bad:#e08a76;
+    --accent:#7fbd93;
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:"IBM Plex Sans",system-ui,sans-serif;
+    padding:28px 20px 48px;
+    max-width:1180px;
+    margin:0 auto;
+  }
+  h1,h2,h3{font-family:"Fraunces",Georgia,serif; text-wrap:balance; margin:0;}
+  .eyebrow{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:11px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--accent);
+    font-weight:600;
+  }
+  header{
+    display:flex; flex-wrap:wrap; gap:20px 32px;
+    align-items:flex-end; justify-content:space-between;
+    padding-bottom:18px; margin-bottom:22px;
+    border-bottom:1px solid var(--line);
+  }
+  header h1{font-size:clamp(26px,4vw,34px); font-weight:600;}
+  header p{margin:6px 0 0; color:var(--ink-muted); font-size:14.5px; max-width:46ch;}
+
+  .clip-tabs{display:flex; gap:6px; background:var(--surface-2); padding:4px; border-radius:10px;}
+  .clip-tabs button{
+    font-family:"IBM Plex Mono",monospace; font-size:12.5px; font-weight:600;
+    letter-spacing:.03em; padding:8px 16px; border-radius:7px; border:none;
+    background:transparent; color:var(--ink-muted); cursor:pointer;
+  }
+  .clip-tabs button.active{background:var(--surface); color:var(--ink); box-shadow:0 1px 2px rgba(0,0,0,.12);}
+  .clip-tabs button:focus-visible{outline:2px solid var(--accent); outline-offset:1px;}
+
+  .layout{display:grid; grid-template-columns:minmax(280px,380px) 1fr; gap:22px;}
+  @media (max-width:820px){ .layout{grid-template-columns:1fr;} }
+
+  .card{
+    background:var(--surface); border:1px solid var(--line); border-radius:14px;
+    padding:18px 20px 20px;
+  }
+  .card h2{font-size:15px; font-weight:600; margin-bottom:2px;}
+  .card .sub{color:var(--ink-muted); font-size:12.5px; margin-bottom:14px;}
+
+  .map-wrap{display:flex; flex-direction:column; align-items:center;}
+  svg{width:100%; height:auto; max-width:340px; display:block;}
+  .legend{display:flex; gap:18px; flex-wrap:wrap; margin-top:12px; font-size:12.5px; color:var(--ink-muted);}
+  .legend span{display:inline-flex; align-items:center; gap:6px;}
+  .swatch{width:16px; height:3px; border-radius:2px; display:inline-block;}
+
+  .right-col{display:flex; flex-direction:column; gap:18px;}
+
+  .elev-svg{width:100%; height:auto; max-width:100%;}
+
+  table{width:100%; border-collapse:collapse; font-size:13.5px;}
+  th,td{text-align:left; padding:9px 10px; border-bottom:1px solid var(--line);}
+  th{font-family:"IBM Plex Mono",monospace; font-size:10.5px; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-muted); font-weight:600;}
+  td.num, th.num{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums; text-align:right;}
+  tr:last-child td{border-bottom:none;}
+  .pill{
+    display:inline-block; padding:2px 9px; border-radius:99px; font-size:11.5px; font-weight:600;
+    font-family:"IBM Plex Mono",monospace;
+  }
+  .pill.good{background:color-mix(in srgb, var(--good) 18%, transparent); color:var(--good);}
+  .pill.bad{background:color-mix(in srgb, var(--bad) 16%, transparent); color:var(--bad);}
+
+  .stat-row{display:grid; grid-template-columns:repeat(4,1fr); gap:10px;}
+  @media (max-width:600px){ .stat-row{grid-template-columns:repeat(2,1fr);} }
+  .stat{background:var(--surface-2); border-radius:10px; padding:10px 12px;}
+  .stat .k{font-size:10.5px; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-muted); font-family:"IBM Plex Mono",monospace;}
+  .stat .v{font-family:"IBM Plex Mono",monospace; font-size:17px; font-weight:600; margin-top:2px;}
+
+  .note{
+    font-size:12.5px; color:var(--ink-muted); line-height:1.55; margin-top:4px;
+    border-left:3px solid var(--line); padding-left:12px;
+  }
+  .note b{color:var(--ink);}
+
+  footer{margin-top:26px; font-size:12px; color:var(--ink-muted); line-height:1.6;}
+</style>
+
+<header>
+  <div>
+    <div class="eyebrow">Score Vision prototype · manako/DetectCricketDelivery</div>
+    <h1>Where the ball actually went</h1>
+    <p>A top-down pitch map built from the points we've measured for each delivery, next to what our straight-line maths makes of them &mdash; so the gap between the two is something you can see, not just a number in a spreadsheet.</p>
+  </div>
+  <div class="clip-tabs" role="tablist" aria-label="Choose a delivery">
+    <button data-clip="c4" class="active" role="tab" aria-selected="true">Ball 4 &middot; swings</button>
+    <button data-clip="c5" role="tab" aria-selected="false">Ball 5 &middot; straight</button>
+  </div>
+</header>
+
+<div class="layout">
+  <div class="card map-wrap">
+    <h2 id="map-title">Pitch map &mdash; top view</h2>
+    <div class="sub">Bowler at top, batter at bottom. Sideways movement is stretched about 4&times; wider than true scale so the swing and deviation are visible &mdash; the same trick real broadcast pitch maps use.</div>
+    <svg viewBox="0 0 340 590" id="pitchSvg" role="img" aria-label="Top down cricket pitch map showing the ball's path"></svg>
+    <div class="legend">
+      <span><i class="swatch" style="background:var(--true-path)"></i>Known points (answer key)</span>
+      <span><i class="swatch" style="background:var(--our-path)"></i>Our straight-line angle</span>
+    </div>
+  </div>
+
+  <div class="right-col">
+    <div class="card">
+      <h2>Side view &mdash; height of flight</h2>
+      <div class="sub">Same delivery, watched from the side: how far the ball drops from release to the pitch.</div>
+      <svg viewBox="0 0 620 190" class="elev-svg" id="elevSvg" role="img" aria-label="Side view of the ball's height during flight"></svg>
+    </div>
+
+    <div class="card">
+      <h2>The delivery, in numbers</h2>
+      <div class="sub" id="context-line"></div>
+      <div class="stat-row" id="statRow"></div>
+    </div>
+
+    <div class="card">
+      <h2>Swing &amp; deviation: answer key vs. our formula</h2>
+      <div class="sub">Same three dots on the map above &mdash; two different ways of turning them into an angle.</div>
+      <table>
+        <thead><tr><th>Field</th><th class="num">Answer key</th><th class="num">Our straight-line calc</th><th>Verdict</th></tr></thead>
+        <tbody id="angleTable"></tbody>
+      </table>
+      <p class="note" id="whyNote"></p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  Pitch dimensions per MCC Law: 20.12&nbsp;m stump-to-stump, 1.22&nbsp;m popping crease, 1.32&nbsp;m return-crease offset. The bowler marker sits on the popping crease at the bowling end (18.90&nbsp;m from the batter's stumps) &mdash; the same fixed line we use elsewhere as a depth anchor for working out where the ball pitches.
+</footer>
+
+<script>
+const DATA = {
+  c4: {
+    label: "Ball 4",
+    desc: "Rabada to David · 1 run, 0 wkts · 136.7 kph",
+    release: { x: 18.90, y: -0.57, z: 2.161 },
+    bounce:  { x: 2.258, y: -0.36, z: 0 },
+    end:     { x: 0.826, y: -0.335, z: 0.187, label: "impact (bat)" },
+    kph: 136.69, runs: 1, wkts: 0,
+    trueSwing: -0.16, trueDev: 0.45,
+    ourSwing: 0.72, ourDev: -0.28,
+    why: "This ball genuinely curves in the air (true swing &minus;0.16&deg;). A straight line from release to bounce only shows the <b>average</b> direction over the whole trip, so it misses the curve entirely &mdash; that's why our number and the answer key disagree here, in both size and direction."
+  },
+  c5: {
+    label: "Ball 5",
+    desc: "vs David · dot ball, 0 wkts · 138.8 kph, through to keeper",
+    release: { x: 18.90, y: -0.596, z: 2.158 },
+    bounce:  { x: 3.142, y: -0.33, z: 0 },
+    end:     { x: 0, y: -0.279, z: 0.292, label: "stumps (not hit)" },
+    kph: 138.82, runs: 0, wkts: 0,
+    trueSwing: 0.00, trueDev: 0.04,
+    ourSwing: 0.97, ourDev: 0.04,
+    why: "This ball flies dead straight (true swing 0.00&deg;) &mdash; there's no curve for a straight-line shortcut to miss. That's exactly why our deviation number (+0.04&deg;) lands right on the answer key here: with nothing bending in flight, the straight line <b>is</b> the true path."
+  }
+};
+
+const PITCH_LEN = 20.12, POP_CREASE = 1.22, RETURN_OFF = 1.32, PITCH_W = 3.05;
+const svgNS = "http://www.w3.org/2000/svg";
+function el(tag, attrs){
+  const e = document.createElementNS(svgNS, tag);
+  for(const k in attrs) e.setAttribute(k, attrs[k]);
+  return e;
+}
+
+// top-down transform: real X (0..20.12, batter..bowler) -> svg y ; real Y (sideways) -> svg x
+const TOP=40, BOTTOM=555, YMIN=-1.5, YMAX=1.5, XLEFT=40, XRIGHT=300;
+function svgY(realX){ return BOTTOM - (realX/PITCH_LEN)*(BOTTOM-TOP); }
+function svgX(realY){ return XLEFT + ((realY-YMIN)/(YMAX-YMIN))*(XRIGHT-XLEFT); }
+
+function drawPitch(svg){
+  svg.innerHTML = "";
+  const css = getComputedStyle(document.documentElement);
+  const turf = css.getPropertyValue('--turf').trim();
+  const tan = css.getPropertyValue('--pitch-tan').trim();
+  const chalk = css.getPropertyValue('--chalk').trim();
+  const ink = css.getPropertyValue('--ink-muted').trim();
+
+  svg.appendChild(el('rect',{x:0,y:0,width:340,height:590,fill:turf}));
+  // pitch strip
+  const stripX0 = svgX(-PITCH_W/2), stripX1 = svgX(PITCH_W/2);
+  svg.appendChild(el('rect',{x:stripX0,y:TOP-14,width:stripX1-stripX0,height:(BOTTOM-TOP)+28,fill:tan,rx:2}));
+
+  // popping creases
+  [0, PITCH_LEN].forEach(px=>{
+    const cx0 = svgX(-RETURN_OFF-0.3), cx1 = svgX(RETURN_OFF+0.3);
+    const creaseX = px===0 ? svgY(POP_CREASE) : svgY(PITCH_LEN-POP_CREASE);
+    svg.appendChild(el('line',{x1:cx0,x2:cx1,y1:creaseX,y2:creaseX,stroke:chalk,'stroke-width':2}));
+  });
+  // return creases (short marks)
+  [-RETURN_OFF, RETURN_OFF].forEach(ry=>{
+    const rx = svgX(ry);
+    svg.appendChild(el('line',{x1:rx,x2:rx,y1:svgY(POP_CREASE)-16,y2:svgY(POP_CREASE)+4,stroke:chalk,'stroke-width':1.5,opacity:.8}));
+    svg.appendChild(el('line',{x1:rx,x2:rx,y1:svgY(PITCH_LEN-POP_CREASE)-4,y2:svgY(PITCH_LEN-POP_CREASE)+16,stroke:chalk,'stroke-width':1.5,opacity:.8}));
+  });
+
+  // stumps at both ends (3 little ticks)
+  [0, PITCH_LEN].forEach(px=>{
+    const cy = svgY(px);
+    [-0.11,0,0.11].forEach(off=>{
+      const cx = svgX(off);
+      svg.appendChild(el('line',{x1:cx,x2:cx,y1:cy-10,y2:cy+2,stroke:chalk,'stroke-width':2.4,'stroke-linecap':'round'}));
+    });
+  });
+
+  // labels
+  const lbl = (x,y,t,anchor='middle',size=10.5,weight=600,color=ink)=>{
+    const l = el('text',{x,y,'text-anchor':anchor,'font-family':'IBM Plex Mono, monospace','font-size':size,'font-weight':weight,fill:color});
+    l.textContent = t; svg.appendChild(l); return l;
+  };
+  lbl(170, 26, "BOWLER'S END", 'middle', 10, 600, chalk);
+  lbl(170, BOTTOM+22, "BATTER'S END", 'middle', 10, 600, chalk);
+  lbl(svgX(RETURN_OFF+0.3)+4, svgY(PITCH_LEN-POP_CREASE)+3, '18.90 m anchor', 'start', 9, 500, chalk);
+
+  return {stripX0, stripX1};
+}
+
+function ballDot(svg, cx, cy, color, r=6){
+  const g = el('g',{});
+  g.appendChild(el('circle',{cx,cy,r:r+3,fill:color,opacity:.16}));
+  g.appendChild(el('circle',{cx,cy,r,fill:'#f4ede0',stroke:color,'stroke-width':2}));
+  g.appendChild(el('circle',{cx,cy,r:1.4,fill:color}));
+  svg.appendChild(g);
+  return g;
+}
+
+function render(clipKey){
+  const d = DATA[clipKey];
+  const svg = document.getElementById('pitchSvg');
+  drawPitch(svg);
+  const css = getComputedStyle(document.documentElement);
+  const truec = css.getPropertyValue('--true-path').trim();
+  const ourc = css.getPropertyValue('--our-path').trim();
+  const ink = css.getPropertyValue('--ink').trim();
+  const inkMuted = css.getPropertyValue('--ink-muted').trim();
+
+  const pR = {x:svgX(d.release.y), y:svgY(d.release.x)};
+  const pB = {x:svgX(d.bounce.y), y:svgY(d.bounce.x)};
+  const pE = {x:svgX(d.end.y), y:svgY(d.end.x)};
+
+  // known-points path (answer key) - straight segments between measured dots, drawn slightly offset left
+  const off = -7;
+  const trueLine = (p)=>({x:p.x+off,y:p.y});
+  svg.appendChild(el('path',{d:`M${trueLine(pR).x},${trueLine(pR).y} L${trueLine(pB).x},${trueLine(pB).y} L${trueLine(pE).x},${trueLine(pE).y}`,
+    fill:'none',stroke:truec,'stroke-width':2.4,'stroke-linecap':'round'}));
+
+  // our secant path, offset right, same dots but visually separated for legibility
+  const off2 = 7;
+  const ourLine = (p)=>({x:p.x+off2,y:p.y});
+  svg.appendChild(el('path',{d:`M${ourLine(pR).x},${ourLine(pR).y} L${ourLine(pB).x},${ourLine(pB).y} L${ourLine(pE).x},${ourLine(pE).y}`,
+    fill:'none',stroke:ourc,'stroke-width':2.4,'stroke-dasharray':'1,5','stroke-linecap':'round'}));
+
+  ballDot(svg, pR.x, pR.y, truec, 5.5);
+  ballDot(svg, pB.x, pB.y, truec, 6.5);
+  ballDot(svg, pE.x, pE.y, truec, 5.5);
+
+  const lbl = (x,y,t,anchor,size,weight,color)=>{
+    const l = el('text',{x,y,'text-anchor':anchor||'start','font-family':'IBM Plex Sans, sans-serif','font-size':size||10.5,'font-weight':weight||500,fill:color||ink});
+    l.textContent = t; svg.appendChild(l); return l;
+  };
+  lbl(pR.x-10, pR.y-10, 'release', 'end', 10.5, 600, ink);
+  lbl(pB.x+10, pB.y+4, 'bounce (' + d.bounce.x.toFixed(2)+' m)', 'start', 10.5, 600, ink);
+  lbl(pE.x+10, pE.y+16, d.end.label, 'start', 10, 500, inkMuted);
+
+  document.getElementById('map-title').textContent = `Pitch map — ${d.label}`;
+  document.getElementById('context-line').textContent = d.desc;
+
+  // elevation (side) view
+  const esvg = document.getElementById('elevSvg');
+  esvg.innerHTML = '';
+  const EL=60, ER=580, ET=20, EB=150;
+  const exX = (realX)=> EL + (1 - realX/PITCH_LEN) * (ER-EL); // batter (0) at right, bowler at left... actually keep bowler->batter left->right
+  // redo: bowler end (X=20.12) on the LEFT, batter end (X=0) on the RIGHT, matching a side-on broadcast angle
+  const ex = (realX)=> EL + ((PITCH_LEN-realX)/PITCH_LEN)*(ER-EL);
+  const ez = (realZ)=> EB - (realZ/2.4)*(EB-ET);
+  esvg.appendChild(el('line',{x1:EL,x2:ER,y1:EB,y2:EB,stroke:css.getPropertyValue('--pitch-tan').trim(),'stroke-width':4}));
+  const pts = [ [ex(d.release.x), ez(d.release.z)], [ex(d.bounce.x), ez(0)], [ex(d.end.x), ez(d.end.z)] ];
+  esvg.appendChild(el('path',{d:`M${pts[0][0]},${pts[0][1]} L${pts[1][0]},${pts[1][1]} L${pts[2][0]},${pts[2][1]}`,
+    fill:'none',stroke:truec,'stroke-width':2.4,'stroke-linecap':'round'}));
+  pts.forEach(p=> ballDot(esvg, p[0], p[1], truec, 5));
+  const elbl=(x,y,t,anchor)=>{const l=el('text',{x,y,'text-anchor':anchor||'middle','font-family':'IBM Plex Mono, monospace','font-size':10,fill:inkMuted}); l.textContent=t; esvg.appendChild(l); return l;};
+  elbl(pts[0][0], pts[0][1]-12, d.release.z.toFixed(2)+' m');
+  elbl(pts[2][0], pts[2][1]-12, d.end.z.toFixed(2)+' m');
+  elbl(EL+6, EB+16, "bowler's end", 'start');
+  elbl(ER-6, EB+16, "batter's end", 'end');
+
+  // stat row
+  const statRow = document.getElementById('statRow');
+  statRow.innerHTML = '';
+  const stats = [
+    ['Speed', d.kph.toFixed(1)+' kph'],
+    ['Pitches at', d.bounce.x.toFixed(2)+' m'],
+    ['Runs', d.runs],
+    ['Wickets', d.wkts],
+  ];
+  stats.forEach(([k,v])=>{
+    const s = document.createElement('div'); s.className='stat';
+    s.innerHTML = `<div class="k">${k}</div><div class="v">${v}</div>`;
+    statRow.appendChild(s);
+  });
+
+  // angle table
+  const tbody = document.getElementById('angleTable');
+  const fmt = (v)=> (v>=0?'+':'') + v.toFixed(2) + '°';
+  const verdict = (truev, ourv)=>{
+    const diff = Math.abs(truev-ourv);
+    return diff <= 0.06 ? '<span class="pill good">spot on</span>' : '<span class="pill bad">off</span>';
+  };
+  tbody.innerHTML = `
+    <tr><td>Swing angle</td><td class="num">${fmt(d.trueSwing)}</td><td class="num">${fmt(d.ourSwing)}</td><td>${verdict(d.trueSwing,d.ourSwing)}</td></tr>
+    <tr><td>Deviation</td><td class="num">${fmt(d.trueDev)}</td><td class="num">${fmt(d.ourDev)}</td><td>${verdict(d.trueDev,d.ourDev)}</td></tr>
+  `;
+  document.getElementById('whyNote').innerHTML = d.why;
+}
+
+document.querySelectorAll('.clip-tabs button').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    document.querySelectorAll('.clip-tabs button').forEach(b=>{b.classList.remove('active'); b.setAttribute('aria-selected','false');});
+    btn.classList.add('active'); btn.setAttribute('aria-selected','true');
+    render(btn.dataset.clip);
+  });
+});
+
+render('c4');
+</script>

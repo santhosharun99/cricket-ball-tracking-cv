@@ -1,0 +1,5 @@
+method,cases,correct,wrong,abstained,recovery_rate,median_prediction_error_px,mean_prediction_error_px
+blend,15,5,0,10,0.3333333333333333,87.4736014656086,166.49938578833317
+curved,15,3,0,12,0.2,213.3653744457828,223.03322311739703
+detector_only,15,15,0,0,1.0,,
+straight,15,3,0,12,0.2,167.7137290896053,188.7775367295283
